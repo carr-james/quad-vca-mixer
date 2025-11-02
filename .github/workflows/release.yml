@@ -10,81 +10,29 @@ permissions:
   contents: write
 
 jobs:
-  generate-gerbers:
-    runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/inti-cmnb/kicad_auto:dev_k9
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Install zip
-        run: apt-get update && apt-get install -y zip
-
-      - name: Generate fabrication files
-        run: |
-          kibot \
-            -c .kibot/jlcpcb.kibot.yaml \
-            -b hardware/control-board/control-board.kicad_pcb \
-            -e hardware/control-board/control-board.kicad_sch \
-            -d output/control-board \
-            -s erc,drc
-          kibot \
-            -c .kibot/jlcpcb-4layer.kibot.yaml \
-            -b hardware/middle-board/middle-board.kicad_pcb \
-            -e hardware/middle-board/middle-board.kicad_sch \
-            -d output/middle-board \
-            -s erc,drc
-          kibot \
-            -c .kibot/jlcpcb.kibot.yaml \
-            -b hardware/bottom-board/bottom-board.kicad_pcb \
-            -e hardware/bottom-board/bottom-board.kicad_sch \
-            -d output/bottom-board \
-            -s erc,drc 
-
-      - name: Create ZIP for JLCPCB
-        run: |
-          cd output
-          (cd control-board/gerbers && zip -r ../../control-board-gerbers.zip *)
-          (cd middle-board/gerbers && zip -r ../../middle-board-gerbers.zip *)
-          (cd bottom-board/gerbers && zip -r ../../bottom-board-gerbers.zip *)
-
-
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: fabrication-files-${{ github.ref_name }}
-          path: |
-            output/control-board-gerbers.zip
-            output/control-board/bom/*.csv
-            output/control-board/position/*.csv
-            output/control-board/ibom/*.html
-            output/middle-board-gerbers.zip
-            output/middle-board/bom/*.csv
-            output/middle-board/position/*.csv
-            output/middle-board/ibom/*.html
-            output/bottom-board-gerbers.zip
-            output/bottom-board/bom/*.csv
-            output/bottom-board/position/*.csv
-            output/bottom-board/ibom/*.html 
-
-      - name: Create Release
-        uses: softprops/action-gh-release@v1
-        if: startsWith(github.ref, 'refs/tags/')
-        with:
-          files: |
-            output/control-board-gerbers.zip
-            output/control-board/bom/*.csv
-            output/control-board/position/*.csv
-            output/control-board/ibom/*.html
-            output/middle-board-gerbers.zip
-            output/middle-board/bom/*.csv
-            output/middle-board/position/*.csv
-            output/middle-board/ibom/*.html
-            output/bottom-board-gerbers.zip
-            output/bottom-board/bom/*.csv
-            output/bottom-board/position/*.csv
-            output/bottom-board/ibom/*.html
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  release:
+    uses: carr-james/eurorack-workflows/.github/workflows/kicad-release.yml@main
+    with:
+      project-name: 'Quad VCA Mixer'
+      boards: |
+        [
+          {
+            "name": "control-board",
+            "kibot_config": ".kibot/jlcpcb.kibot.yaml",
+            "pcb_path": "hardware/control-board/control-board.kicad_pcb",
+            "sch_path": "hardware/control-board/control-board.kicad_sch"
+          },
+          {
+            "name": "middle-board",
+            "kibot_config": ".kibot/jlcpcb-4layer.kibot.yaml",
+            "pcb_path": "hardware/middle-board/middle-board.kicad_pcb",
+            "sch_path": "hardware/middle-board/middle-board.kicad_sch"
+          },
+          {
+            "name": "bottom-board",
+            "kibot_config": ".kibot/jlcpcb.kibot.yaml",
+            "pcb_path": "hardware/bottom-board/bottom-board.kicad_pcb",
+            "sch_path": "hardware/bottom-board/bottom-board.kicad_sch"
+          }
+        ]
+      skip-checks: 'erc,drc'

@@ -60,7 +60,7 @@ outputs:
     type: ibom
     dir: ibom
     options:
-      dark_mode: false
+      dark_mode: true
       hide_pads: false
       show_fabrication: false
       hide_silkscreen: false
