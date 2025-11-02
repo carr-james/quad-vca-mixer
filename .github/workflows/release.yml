@@ -35,6 +35,12 @@ jobs:
             -b hardware/middle-board/middle-board.kicad_pcb \
             -e hardware/middle-board/middle-board.kicad_sch \
             -d output/middle-board \
+            -s erc,drc
+          kibot \
+            -c .kibot/jlcpcb.kibot.yaml \
+            -b hardware/bottom-board/bottom-board.kicad_pcb \
+            -e hardware/bottom-board/bottom-board.kicad_sch \
+            -d output/bottom-board \
             -s erc,drc 
 
       - name: Create ZIP for JLCPCB
@@ -42,19 +48,26 @@ jobs:
           cd output
           (cd control-board/gerbers && zip -r ../../control-board-gerbers.zip *)
           (cd middle-board/gerbers && zip -r ../../middle-board-gerbers.zip *)
+          (cd bottom-board/gerbers && zip -r ../../bottom-board-gerbers.zip *)
 
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: control-board-${{ github.ref_name }}
+          name: fabrication-files-${{ github.ref_name }}
           path: |
             output/control-board-gerbers.zip
             output/control-board/bom/*.csv
             output/control-board/position/*.csv
+            output/control-board/ibom/*.html
             output/middle-board-gerbers.zip
             output/middle-board/bom/*.csv
-            output/middle-board/position/*.csv 
+            output/middle-board/position/*.csv
+            output/middle-board/ibom/*.html
+            output/bottom-board-gerbers.zip
+            output/bottom-board/bom/*.csv
+            output/bottom-board/position/*.csv
+            output/bottom-board/ibom/*.html 
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
@@ -64,8 +77,14 @@ jobs:
             output/control-board-gerbers.zip
             output/control-board/bom/*.csv
             output/control-board/position/*.csv
+            output/control-board/ibom/*.html
             output/middle-board-gerbers.zip
             output/middle-board/bom/*.csv
             output/middle-board/position/*.csv
+            output/middle-board/ibom/*.html
+            output/bottom-board-gerbers.zip
+            output/bottom-board/bom/*.csv
+            output/bottom-board/position/*.csv
+            output/bottom-board/ibom/*.html
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

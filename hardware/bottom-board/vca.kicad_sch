@@ -5,7 +5,417 @@
 	(uuid "483a1b34-879f-4df4-b78a-c114c03d41b3")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Amplifier_Operational:LM13700"
+		(symbol "Eurorack Common:2N3904"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N3904"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Eurorack Common:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N3904_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2N3904_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Eurorack Common:2N3906"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N3906"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Eurorack Common:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "PNP Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N3906_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "2N3906_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Eurorack Common:NE5517DR2G"
 			(pin_names
 				(offset 0.127)
 			)
@@ -20,7 +430,7 @@
 					)
 				)
 			)
-			(property "Value" "LM13700"
+			(property "Value" "NE5517DR2G"
 				(at 5.08 -5.08 0)
 				(effects
 					(font
@@ -28,7 +438,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Eurorack Common:SOIC-16_3.9x9.9mm_P1.27mm"
 				(at -7.62 0.635 0)
 				(effects
 					(font
@@ -37,7 +447,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm13700.pdf"
+			(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ne5517-d.pdf"
 				(at -7.62 0.635 0)
 				(effects
 					(font
@@ -46,7 +456,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16"
+			(property "Description" "Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, SOIC-16, drop in replacement for LM13700"
 				(at 0 0 0)
 				(effects
 					(font
@@ -81,7 +491,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM13700_1_1"
+			(symbol "NE5517DR2G_1_1"
 				(polyline
 					(pts
 						(xy 3.81 -0.635) (xy 3.81 -2.54) (xy 5.08 -2.54)
@@ -197,7 +607,7 @@
 					)
 				)
 			)
-			(symbol "LM13700_2_0"
+			(symbol "NE5517DR2G_2_0"
 				(polyline
 					(pts
 						(xy -1.905 2.54) (xy -3.175 2.54)
@@ -211,7 +621,7 @@
 					)
 				)
 			)
-			(symbol "LM13700_2_1"
+			(symbol "NE5517DR2G_2_1"
 				(polyline
 					(pts
 						(xy -3.81 1.27) (xy -3.81 -1.27)
@@ -364,7 +774,7 @@
 					)
 				)
 			)
-			(symbol "LM13700_3_1"
+			(symbol "NE5517DR2G_3_1"
 				(polyline
 					(pts
 						(xy 3.81 -0.635) (xy 3.81 -2.54) (xy 5.08 -2.54)
@@ -480,7 +890,7 @@
 					)
 				)
 			)
-			(symbol "LM13700_4_0"
+			(symbol "NE5517DR2G_4_0"
 				(polyline
 					(pts
 						(xy -3.175 2.54) (xy -1.905 2.54)
@@ -502,7 +912,7 @@
 					)
 				)
 			)
-			(symbol "LM13700_4_1"
+			(symbol "NE5517DR2G_4_1"
 				(polyline
 					(pts
 						(xy -3.81 1.27) (xy -3.81 -1.27)
@@ -647,7 +1057,7 @@
 					)
 				)
 			)
-			(symbol "LM13700_5_1"
+			(symbol "NE5517DR2G_5_1"
 				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
@@ -687,397 +1097,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Amplifier_Operational:TL084"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TL084"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
-				(at 1.27 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Quad JFET-Input Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "quad opamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TL084_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TL084_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TL084_3_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TL084_4_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TL084_5_1"
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
+		(symbol "Eurorack Common:R_DIN0207"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1103,7 +1123,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -1148,10 +1168,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
+			(symbol "R_DIN0207_0_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1161,7 +1181,7 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R_DIN0207_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1365,16 +1385,15 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:2N3904"
+		(symbol "Eurorack Common:TL084HIDYYR"
 			(pin_names
-				(offset 0)
-				(hide yes)
+				(offset 0.127)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+			(property "Reference" "U"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1382,8 +1401,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N3904"
-				(at 5.08 0 0)
+			(property "Value" "TL084"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1391,29 +1410,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-				(at 0 0 0)
+			(property "Footprint" "Eurorack Common:Texas_DYY0014A_TSOT-23-14_2x4.2mm_P0.5mm"
+				(at -1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1421,7 +1419,16 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN Transistor"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl084.pdf"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low-Power, Quad-Operational Amplifiers, TSOT-23-14"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1430,7 +1437,15 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quad opamp"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1439,102 +1454,32 @@
 					(hide yes)
 				)
 			)
-			(symbol "2N3904_0_1"
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TL084HIDYYR_1_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy 0.635 0)
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2N3904_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type background)
 					)
 				)
 				(pin input line
-					(at -5.08 0 0)
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1549,10 +1494,28 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 90)
+				(pin input line
+					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "E"
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1568,167 +1531,98 @@
 					)
 				)
 			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_BJT:2N3906"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2N3906"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "PNP Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?92*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2N3906_0_1"
+			(symbol "TL084HIDYYR_2_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy 0.635 0)
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(stroke
-						(width 0)
-						(type default)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(fill
-						(type outline)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
-			(symbol "2N3906_1_1"
+			(symbol "TL084HIDYYR_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin input line
-					(at -5.08 0 0)
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "B"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1736,17 +1630,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 5.08 270)
+				(pin input line
+					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "C"
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1754,17 +1648,123 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 90)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "E"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL084HIDYYR_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL084HIDYYR_5_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3023,7 +3023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01278730-301f-4a94-ac15-d66515a25ba5")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR020"
 			(at 83.82 57.15 0)
 			(effects
 				(font
@@ -3073,11 +3073,11 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "#PWR061")
+					(reference "#PWR020")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "#PWR077")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -3093,7 +3093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "038a9f34-cd6e-4768-8ee7-eb8004324bb7")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR023"
 			(at 99.06 60.96 0)
 			(effects
 				(font
@@ -3143,11 +3143,11 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "#PWR064")
+					(reference "#PWR023")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "#PWR080")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3163,7 +3163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "144c2b4a-3487-4555-a33b-7a08b4368db9")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR031"
 			(at 232.41 71.12 0)
 			(effects
 				(font
@@ -3213,18 +3213,18 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "#PWR0101")
+					(reference "#PWR031")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "#PWR0109")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 200.66 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3232,7 +3232,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e601f13-bf65-44ed-a227-cfaf35364a5c")
-		(property "Reference" "R85"
+		(property "Reference" "R15"
 			(at 198.12 95.25 90)
 			(effects
 				(font
@@ -3248,7 +3248,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 202.438 95.25 90)
 			(effects
 				(font
@@ -3266,12 +3266,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 200.66 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3283,11 +3284,11 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "R85")
+					(reference "R15")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "R90")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -3302,7 +3303,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2290f729-613f-420a-a105-2e0ef59aab09")
-		(property "Reference" "RV6"
+		(property "Reference" "RV2"
 			(at 182.88 90.17 0)
 			(effects
 				(font
@@ -3359,18 +3360,18 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "RV6")
+					(reference "RV2")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "RV8")
+					(reference "RV4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL084")
+		(lib_id "Eurorack Common:TL084HIDYYR")
 		(at 101.6 78.74 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -3394,7 +3395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:Texas_DYY0016A_TSOT-23-16_2x4.2mm_P0.5mm"
+		(property "Footprint" "Eurorack Common:Texas_DYY0014A_TSOT-23-14_2x4.2mm_P0.5mm"
 			(at 100.33 76.2 0)
 			(effects
 				(font
@@ -3403,7 +3404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl084.pdf"
 			(at 102.87 73.66 0)
 			(effects
 				(font
@@ -3412,12 +3413,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Low-Power, Quad-Operational Amplifiers, TSOT-23-14"
 			(at 101.6 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3476,7 +3478,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 40.64 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3484,7 +3486,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27d37e38-a4a3-4f07-bfe8-9f8f4fc133b5")
-		(property "Reference" "R40"
+		(property "Reference" "R1"
 			(at 43.18 91.44 90)
 			(effects
 				(font
@@ -3500,7 +3502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 38.862 91.44 90)
 			(effects
 				(font
@@ -3518,12 +3520,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 40.64 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3535,18 +3538,18 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "R40")
+					(reference "R1")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "R56")
+					(reference "R17")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 99.06 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3554,7 +3557,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28155e76-61fa-4f80-bf62-97f021ca3aea")
-		(property "Reference" "R46"
+		(property "Reference" "R7"
 			(at 96.52 54.61 90)
 			(effects
 				(font
@@ -3570,7 +3573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 100.838 54.61 90)
 			(effects
 				(font
@@ -3588,12 +3591,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 99.06 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3605,18 +3609,18 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "R46")
+					(reference "R7")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "R62")
+					(reference "R23")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LM13700")
+		(lib_id "Eurorack Common:NE5517DR2G")
 		(at 204.47 54.61 0)
 		(mirror x)
 		(unit 1)
@@ -3641,7 +3645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:JEITA_SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Eurorack Common:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 196.85 55.245 0)
 			(effects
 				(font
@@ -3650,7 +3654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ne5517-d.pdf"
 			(at 196.85 55.245 0)
 			(effects
 				(font
@@ -3659,7 +3663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, SOIC-16, drop in replacement for LM13700"
 			(at 204.47 54.61 0)
 			(effects
 				(font
@@ -3730,7 +3734,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
+		(lib_id "Eurorack Common:2N3904")
 		(at 96.52 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3739,7 +3743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "316a61d4-a3a9-4303-901f-a85a5bfa204c")
-		(property "Reference" "Q5"
+		(property "Reference" "Q1"
 			(at 101.6 40.6399 0)
 			(effects
 				(font
@@ -3757,7 +3761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Eurorack Common:TO-92_Inline"
 			(at 101.6 43.815 0)
 			(effects
 				(font
@@ -3799,18 +3803,18 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "Q5")
+					(reference "Q1")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "Q7")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 172.72 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3818,7 +3822,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34cdf739-1071-4752-8d37-49cd281e63db")
-		(property "Reference" "R82"
+		(property "Reference" "R12"
 			(at 175.26 68.58 90)
 			(effects
 				(font
@@ -3834,7 +3838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 170.942 68.58 90)
 			(effects
 				(font
@@ -3852,12 +3856,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 172.72 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3869,11 +3874,11 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "R82")
+					(reference "R12")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "R87")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -3889,7 +3894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42319614-587e-45f3-85d4-3d5a733ecdeb")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR021"
 			(at 83.82 74.93 0)
 			(effects
 				(font
@@ -3939,18 +3944,18 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "#PWR062")
+					(reference "#PWR021")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "#PWR078")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL084")
+		(lib_id "Eurorack Common:TL084HIDYYR")
 		(at 60.96 81.28 0)
 		(mirror x)
 		(unit 1)
@@ -3975,7 +3980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:Texas_DYY0016A_TSOT-23-16_2x4.2mm_P0.5mm"
+		(property "Footprint" "Eurorack Common:Texas_DYY0014A_TSOT-23-14_2x4.2mm_P0.5mm"
 			(at 59.69 83.82 0)
 			(effects
 				(font
@@ -3984,7 +3989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl084.pdf"
 			(at 62.23 86.36 0)
 			(effects
 				(font
@@ -3993,12 +3998,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Low-Power, Quad-Operational Amplifiers, TSOT-23-14"
 			(at 60.96 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4057,7 +4063,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 193.04 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4065,7 +4071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "430242d7-cb37-423a-a9e3-30095684aec7")
-		(property "Reference" "R83"
+		(property "Reference" "R13"
 			(at 193.04 87.63 90)
 			(effects
 				(font
@@ -4081,7 +4087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 193.04 91.948 90)
 			(effects
 				(font
@@ -4099,12 +4105,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 193.04 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4116,11 +4123,11 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "R83")
+					(reference "R13")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "R88")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -4136,7 +4143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4673bf55-31b0-4a72-8850-555229807504")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR025"
 			(at 127 97.79 0)
 			(effects
 				(font
@@ -4186,18 +4193,18 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "#PWR066")
+					(reference "#PWR025")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "#PWR082")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 232.41 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4205,7 +4212,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bafcd8f-2f04-4e75-8c0a-f8a5470f3fb1")
-		(property "Reference" "R86"
+		(property "Reference" "R16"
 			(at 229.87 63.5 90)
 			(effects
 				(font
@@ -4221,7 +4228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 234.188 63.5 90)
 			(effects
 				(font
@@ -4239,12 +4246,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 232.41 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4256,11 +4264,11 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "R86")
+					(reference "R16")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "R91")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -4276,7 +4284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e326356-6fda-4d38-9133-3c0c6a9025da")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR027"
 			(at 184.15 90.17 0)
 			(effects
 				(font
@@ -4326,18 +4334,18 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "#PWR095")
+					(reference "#PWR027")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "#PWR0103")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 128.27 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4345,7 +4353,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e4c9c5e-63e3-4d7b-9e73-215bf34bde87")
-		(property "Reference" "R50"
+		(property "Reference" "R11"
 			(at 128.27 43.18 90)
 			(effects
 				(font
@@ -4361,7 +4369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 128.27 47.498 90)
 			(effects
 				(font
@@ -4379,12 +4387,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 128.27 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4396,18 +4405,18 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "R50")
+					(reference "R11")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "R66")
+					(reference "R27")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 83.82 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4415,7 +4424,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6fcb8b7c-3e38-4db6-a16a-423f83c8c058")
-		(property "Reference" "R43"
+		(property "Reference" "R4"
 			(at 81.28 57.15 90)
 			(effects
 				(font
@@ -4431,7 +4440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 85.598 57.15 90)
 			(effects
 				(font
@@ -4449,12 +4458,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 83.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4466,11 +4476,11 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "R43")
+					(reference "R4")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "R59")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -4486,7 +4496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72a348b1-5fbe-4ce8-a81b-eab8e9f22a9a")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR022"
 			(at 99.06 38.1 0)
 			(effects
 				(font
@@ -4536,18 +4546,18 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "#PWR063")
+					(reference "#PWR022")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "#PWR079")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 127 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4555,7 +4565,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "790834df-d8bb-41d3-bc50-ccb214e48464")
-		(property "Reference" "R49"
+		(property "Reference" "R10"
 			(at 129.54 91.44 90)
 			(effects
 				(font
@@ -4571,7 +4581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 125.222 91.44 90)
 			(effects
 				(font
@@ -4589,12 +4599,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 127 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4606,18 +4617,18 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "R49")
+					(reference "R10")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "R65")
+					(reference "R26")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 40.64 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4625,7 +4636,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e627894-e5be-4298-a336-25ad364fd176")
-		(property "Reference" "R41"
+		(property "Reference" "R2"
 			(at 43.18 101.6 90)
 			(effects
 				(font
@@ -4641,7 +4652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 38.862 101.6 90)
 			(effects
 				(font
@@ -4659,12 +4670,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 40.64 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4676,18 +4688,18 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "R41")
+					(reference "R2")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "R57")
+					(reference "R18")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LM13700")
+		(lib_id "Eurorack Common:NE5517DR2G")
 		(at 224.79 54.61 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -4712,7 +4724,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:JEITA_SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Eurorack Common:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 217.17 53.975 0)
 			(effects
 				(font
@@ -4721,7 +4733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ne5517-d.pdf"
 			(at 217.17 53.975 0)
 			(effects
 				(font
@@ -4730,7 +4742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, SOIC-16, drop in replacement for LM13700"
 			(at 224.79 54.61 0)
 			(effects
 				(font
@@ -4811,7 +4823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a7e3362-717b-4a4c-a5a5-309b3689d6ec")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR024"
 			(at 114.3 66.04 0)
 			(effects
 				(font
@@ -4861,11 +4873,11 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "#PWR065")
+					(reference "#PWR024")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "#PWR081")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -4881,7 +4893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d966a10-1c0c-469c-b6be-573373b6ddb5")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR019"
 			(at 40.64 113.03 0)
 			(effects
 				(font
@@ -4931,11 +4943,11 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "#PWR060")
+					(reference "#PWR019")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "#PWR076")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4951,7 +4963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9355d1a8-e9ec-4782-87b9-a094a70adeef")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR028"
 			(at 184.15 96.52 0)
 			(effects
 				(font
@@ -5001,11 +5013,11 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "#PWR096")
+					(reference "#PWR028")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "#PWR0104")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -5021,7 +5033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98ead466-6183-43dc-ac0e-b3bf6b305ca5")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR029"
 			(at 200.66 83.82 0)
 			(effects
 				(font
@@ -5071,18 +5083,18 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "#PWR097")
+					(reference "#PWR029")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "#PWR0105")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3906")
+		(lib_id "Eurorack Common:2N3906")
 		(at 111.76 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5091,7 +5103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b85375d-7ddd-4521-92f1-d8864c787590")
-		(property "Reference" "Q6"
+		(property "Reference" "Q2"
 			(at 116.84 49.5299 0)
 			(effects
 				(font
@@ -5109,7 +5121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Eurorack Common:TO-92_Inline"
 			(at 116.84 52.705 0)
 			(effects
 				(font
@@ -5151,11 +5163,11 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "Q6")
+					(reference "Q2")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "Q8")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -5170,7 +5182,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2697b40-7d10-4910-8784-9c96819af0ac")
-		(property "Reference" "RV5"
+		(property "Reference" "RV1"
 			(at 170.9421 59.0412 0)
 			(effects
 				(font
@@ -5188,7 +5200,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Eurorack Common:Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" "Eurorack Common:Potentiometer_Bourns_3296W_Horizontal"
 			(at 172.72 59.69 0)
 			(effects
 				(font
@@ -5227,11 +5239,11 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "RV5")
+					(reference "RV1")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "RV7")
+					(reference "RV3")
 					(unit 1)
 				)
 			)
@@ -5247,7 +5259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a488fb1e-204b-433d-95a4-9ae5bd63cc33")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR018"
 			(at 40.64 90.17 0)
 			(effects
 				(font
@@ -5297,18 +5309,18 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "#PWR059")
+					(reference "#PWR018")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "#PWR075")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 85.09 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5316,7 +5328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7345fb8-6aa6-4ee2-8f48-dea0cc51e196")
-		(property "Reference" "R45"
+		(property "Reference" "R6"
 			(at 85.09 78.74 90)
 			(effects
 				(font
@@ -5332,7 +5344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 85.09 83.058 90)
 			(effects
 				(font
@@ -5350,12 +5362,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 85.09 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5367,18 +5380,18 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "R45")
+					(reference "R6")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "R61")
+					(reference "R22")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 83.82 64.77 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5386,7 +5399,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad053c16-9546-458c-97e2-e2cabfd50a4e")
-		(property "Reference" "R44"
+		(property "Reference" "R5"
 			(at 81.28 64.77 90)
 			(effects
 				(font
@@ -5402,7 +5415,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 85.598 64.77 90)
 			(effects
 				(font
@@ -5420,12 +5433,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 83.82 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5437,18 +5451,18 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "R44")
+					(reference "R5")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "R60")
+					(reference "R21")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 57.15 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5456,7 +5470,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8a80402-73a2-4046-8b94-993c8ae8f342")
-		(property "Reference" "R42"
+		(property "Reference" "R3"
 			(at 57.15 39.37 90)
 			(effects
 				(font
@@ -5472,7 +5486,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 57.15 43.688 90)
 			(effects
 				(font
@@ -5490,12 +5504,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 57.15 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5507,11 +5522,11 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "R42")
+					(reference "R3")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "R58")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -5527,7 +5542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2857f28-bc55-4f8c-b30a-e371b149f98e")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR030"
 			(at 200.66 106.68 0)
 			(effects
 				(font
@@ -5577,18 +5592,18 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "#PWR098")
+					(reference "#PWR030")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "#PWR0106")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 200.66 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5596,7 +5611,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa268790-9dbf-4a95-b9b1-3df38baff537")
-		(property "Reference" "R84"
+		(property "Reference" "R14"
 			(at 198.12 85.09 90)
 			(effects
 				(font
@@ -5612,7 +5627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 202.438 85.09 90)
 			(effects
 				(font
@@ -5630,12 +5645,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 200.66 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5647,11 +5663,11 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "R84")
+					(reference "R14")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "R89")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -5667,7 +5683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc3155a7-8ebb-4642-bb39-42b79edd6d32")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR026"
 			(at 172.72 81.28 0)
 			(effects
 				(font
@@ -5717,18 +5733,18 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "#PWR094")
+					(reference "#PWR026")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "#PWR0102")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 127 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5736,7 +5752,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe93b966-cfe7-4b5e-968d-447d0fc972fb")
-		(property "Reference" "R48"
+		(property "Reference" "R9"
 			(at 129.54 83.82 90)
 			(effects
 				(font
@@ -5752,7 +5768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 125.222 83.82 90)
 			(effects
 				(font
@@ -5770,12 +5786,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 127 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5787,18 +5804,18 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "R48")
+					(reference "R9")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "R64")
+					(reference "R25")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 100.33 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5806,7 +5823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff35ebf0-7086-4661-a4d6-e8f51fcb9cd2")
-		(property "Reference" "R47"
+		(property "Reference" "R8"
 			(at 100.33 90.17 90)
 			(effects
 				(font
@@ -5822,7 +5839,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 100.33 85.852 90)
 			(effects
 				(font
@@ -5840,12 +5857,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 100.33 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5857,11 +5875,11 @@
 		(instances
 			(project "bottom-board"
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/2f4b87ba-4dca-441e-b1bd-4ba2e4c20164"
-					(reference "R47")
+					(reference "R8")
 					(unit 1)
 				)
 				(path "/00dd4c45-9d22-499f-89a3-fdd64d901256/c0b71e1f-160f-4460-85e5-692383b00a3f"
-					(reference "R63")
+					(reference "R24")
 					(unit 1)
 				)
 			)

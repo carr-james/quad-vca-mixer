@@ -205,7 +205,7 @@
           ""
         ],
         [
-          "silk_edge_clearance|59700000|120498314|3baf3729-3149-4601-a11b-4757e1e6d4c1|e7fd2a1f-6e9b-430d-9dba-d6f94cb2ba1c",
+          "silk_edge_clearance|59700000|120498314|3baf3729-3149-4601-a11b-4757e1e6d4c1|c236d65e-4eb0-4499-a495-7ffa3f6c928b",
           ""
         ],
         [
@@ -221,35 +221,35 @@
           ""
         ],
         [
-          "silk_overlap|49592503|49518271|2fbb7515-a75f-4b3e-8fc1-151c760673bd|e5ec27bc-4a7d-472f-8d76-84edb5167189",
+          "silk_overlap|49592503|49518271|168f70b2-7770-4d60-bdc9-b22065d33e70|3b1e3d8b-2d1c-4110-9643-e6b97ef66b9e",
           ""
         ],
         [
-          "silk_overlap|49592503|49518271|2fbb7515-a75f-4b3e-8fc1-151c760673bd|f8d4e689-e5e4-4d78-8287-142a534078b1",
+          "silk_overlap|49608658|49555075|168f70b2-7770-4d60-bdc9-b22065d33e70|988c47e0-7688-4520-9e75-9640cdb4c056",
           ""
         ],
         [
-          "silk_overlap|49592503|49518271|3b1e3d8b-2d1c-4110-9643-e6b97ef66b9e|e5ec27bc-4a7d-472f-8d76-84edb5167189",
+          "silk_overlap|49608659|49497445|27e12369-6b95-466d-9159-4f60ab73a4d8|2fbb7515-a75f-4b3e-8fc1-151c760673bd",
           ""
         ],
         [
-          "silk_overlap|49608658|49555075|988c47e0-7688-4520-9e75-9640cdb4c056|e5ec27bc-4a7d-472f-8d76-84edb5167189",
+          "silk_overlap|49608659|49518271|168f70b2-7770-4d60-bdc9-b22065d33e70|2fbb7515-a75f-4b3e-8fc1-151c760673bd",
           ""
         ],
         [
-          "silk_overlap|49687959|49497444|3b1e3d8b-2d1c-4110-9643-e6b97ef66b9e|f8d4e689-e5e4-4d78-8287-142a534078b1",
+          "silk_overlap|49608659|49518271|168f70b2-7770-4d60-bdc9-b22065d33e70|5b616682-098d-45db-924e-99c337c64778",
           ""
         ],
         [
-          "silk_overlap|49692503|49518271|5b616682-098d-45db-924e-99c337c64778|e5ec27bc-4a7d-472f-8d76-84edb5167189",
+          "silk_overlap|49687959|49497444|27e12369-6b95-466d-9159-4f60ab73a4d8|3b1e3d8b-2d1c-4110-9643-e6b97ef66b9e",
           ""
         ],
         [
-          "silk_overlap|49692503|49518271|5b616682-098d-45db-924e-99c337c64778|f8d4e689-e5e4-4d78-8287-142a534078b1",
+          "silk_overlap|49692503|49497445|27e12369-6b95-466d-9159-4f60ab73a4d8|5b616682-098d-45db-924e-99c337c64778",
           ""
         ],
         [
-          "silk_overlap|49692503|49518271|988c47e0-7688-4520-9e75-9640cdb4c056|f8d4e689-e5e4-4d78-8287-142a534078b1",
+          "silk_overlap|49692503|49518271|27e12369-6b95-466d-9159-4f60ab73a4d8|988c47e0-7688-4520-9e75-9640cdb4c056",
           ""
         ]
       ],
@@ -699,14 +699,70 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "PWR",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "name": "Audio_Input_HighZ",
+        "pcb_color": "rgb(204, 102, 0)",
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.89,
+        "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Audio_Output",
+        "pcb_color": "rgb(0, 255, 0)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Audio_Signal",
+        "pcb_color": "rgb(0, 255, 255)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "CV_Buffered",
+        "pcb_color": "rgb(0, 132, 132)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "CV_HighZ",
+        "pcb_color": "rgb(255, 0, 0)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4
       },
       {
         "bus_width": 12,
@@ -716,11 +772,11 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "SIGNAL",
+        "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.89,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -739,6 +795,22 @@
       {
         "netclass": "PWR",
         "pattern": "-12V"
+      },
+      {
+        "netclass": "Audio_Input_HighZ",
+        "pattern": "/AUDIO_IN_*"
+      },
+      {
+        "netclass": "Audio_Output",
+        "pattern": "/MIX_OUT"
+      },
+      {
+        "netclass": "Audio_Output",
+        "pattern": "/AUDIO_OUT_*"
+      },
+      {
+        "netclass": "Audio_Output",
+        "pattern": "/OUT_*"
       }
     ]
   },

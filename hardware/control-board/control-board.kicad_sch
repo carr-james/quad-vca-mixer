@@ -1676,418 +1676,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Dual_Bidirectional"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED_Dual_Bidirectional"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual LED, bidirectional"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode bicolor dual"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_Dual_Bidirectional_0_1"
-				(polyline
-					(pts
-						(xy -4.572 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 3.81) (xy -1.016 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy -1.016 -3.81) (xy 1.27 -2.54) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 4.572)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.81) (xy 1.27 1.27) (xy -1.016 2.54) (xy 1.27 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 2.54) (xy -2.032 2.54) (xy -2.032 -2.54) (xy 2.286 -2.54) (xy 2.286 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.286 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 4.318) (xy 4.318 5.842) (xy 3.556 5.842)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.064 3.048) (xy 5.588 4.572) (xy 4.826 4.572)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.064 0) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 5.842) (xy 4.318 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.588 4.572) (xy 5.588 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_Dual_Bidirectional_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.048)
-					(name "AK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "KA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Eurorack Common:Alpha_Potentiometer"
 			(pin_names
 				(offset 1.016)
@@ -2428,6 +2016,418 @@
 						)
 					)
 					(number "TN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Eurorack Common:LED_Dual_Bidirectional_3mm"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_Dual_Bidirectional_3mm"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Eurorack Common:LED_D3.0mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual LED, bidirectional"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode bicolor dual 3mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Dual_Bidirectional_3mm_0_1"
+				(polyline
+					(pts
+						(xy -4.572 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 3.81) (xy -1.016 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.016 -3.81) (xy 1.27 -2.54) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 4.572)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 1.27 1.27) (xy -1.016 2.54) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 2.54) (xy -2.032 2.54) (xy -2.032 -2.54) (xy 2.286 -2.54) (xy 2.286 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.286 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 4.318) (xy 4.318 5.842) (xy 3.556 5.842)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 3.048) (xy 5.588 4.572) (xy 4.826 4.572)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 0) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 5.842) (xy 4.318 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 4.572) (xy 5.588 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Dual_Bidirectional_3mm_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.048)
+					(name "AK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "KA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Eurorack Common:R_DIN0207"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_DIN0207_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_DIN0207_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3157,6 +3157,12 @@
 		(uuid "cb5691fa-d715-4540-8fe6-2446b2a2dd3b")
 	)
 	(junction
+		(at 46.99 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d98b4c2-5df3-4d88-96c5-470d57542ae0")
+	)
+	(junction
 		(at 57.15 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3169,16 +3175,58 @@
 		(uuid "4e8b244b-86df-4e87-bce5-52504547ce65")
 	)
 	(junction
+		(at 248.92 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d1888be-ff7c-4d45-91ea-bd0ee0492a6f")
+	)
+	(junction
 		(at 57.15 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ea1f71c-f65c-4f02-b303-216ac27dfca3")
 	)
 	(junction
+		(at 248.92 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "762b9188-5fe7-4bee-b506-a1badad3f252")
+	)
+	(junction
+		(at 248.92 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e7b3672-e686-48c6-8e8f-faee0761ee38")
+	)
+	(junction
 		(at 57.15 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87adf1b9-5ac3-4343-aad2-e03c0a8fee65")
+	)
+	(junction
+		(at 46.99 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7e8f46a-48a4-4f09-b295-5829e539c04b")
+	)
+	(junction
+		(at 46.99 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd11dc51-0e56-4665-ac49-755df9657681")
+	)
+	(junction
+		(at 46.99 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db9a9424-9256-49e9-8a8a-ceab184fdcad")
+	)
+	(junction
+		(at 248.92 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e49526a4-5a1d-4920-98ce-39a1cb8b048b")
 	)
 	(no_connect
 		(at 44.45 110.49)
@@ -3228,6 +3276,26 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 50.8) (xy 248.92 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08ea6bd1-7c17-4964-b05b-d4315f04d0a9")
+	)
+	(wire
+		(pts
+			(xy 46.99 146.05) (xy 46.99 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e7ebb8-ab5f-4317-b7ff-3ec0413f0eaf")
+	)
+	(wire
+		(pts
 			(xy 170.18 190.5) (xy 166.37 190.5)
 		)
 		(stroke
@@ -3238,7 +3306,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 76.2) (xy 242.57 76.2)
+			(xy 236.22 76.2) (xy 238.76 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3268,6 +3336,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 151.13) (xy 248.92 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15b4dca5-ad25-4e59-bca6-117f4152ea51")
+	)
+	(wire
+		(pts
 			(xy 57.15 74.93) (xy 57.15 82.55)
 		)
 		(stroke
@@ -3278,7 +3356,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 111.76) (xy 255.27 111.76)
+			(xy 246.38 111.76) (xy 248.92 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3328,6 +3406,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 144.78) (xy 255.27 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fba3c51-38f4-4a0b-8d07-581a75d01daa")
+	)
+	(wire
+		(pts
 			(xy 205.74 62.23) (xy 205.74 60.96)
 		)
 		(stroke
@@ -3368,7 +3456,27 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 54.61) (xy 45.72 54.61)
+			(xy 248.92 76.2) (xy 255.27 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38551a22-4a29-4be4-8644-ce3ec3116870")
+	)
+	(wire
+		(pts
+			(xy 248.92 144.78) (xy 248.92 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d94b998-c3a8-4686-a28a-a30b990e0357")
+	)
+	(wire
+		(pts
+			(xy 44.45 54.61) (xy 46.99 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3398,7 +3506,17 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 111.76) (xy 242.57 111.76)
+			(xy 46.99 102.87) (xy 46.99 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4873b9a0-ecd0-4f0e-a4cf-3379f7bc7134")
+	)
+	(wire
+		(pts
+			(xy 236.22 111.76) (xy 238.76 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3408,7 +3526,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 187.96) (xy 53.34 187.96)
+			(xy 248.92 44.45) (xy 248.92 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fda7381-230c-45f7-9128-e1f00df1f8e8")
+	)
+	(wire
+		(pts
+			(xy 60.96 187.96) (xy 55.88 187.96)
 		)
 		(stroke
 			(width 0)
@@ -3438,7 +3566,17 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 44.45) (xy 255.27 44.45)
+			(xy 46.99 142.24) (xy 48.26 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5215544b-5a4f-41b9-8257-53a262e4e138")
+	)
+	(wire
+		(pts
+			(xy 246.38 44.45) (xy 248.92 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3478,6 +3616,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 191.77) (xy 46.99 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b763ee9-b33f-4193-88a2-068b877ea07a")
+	)
+	(wire
+		(pts
 			(xy 44.45 157.48) (xy 45.72 157.48)
 		)
 		(stroke
@@ -3498,7 +3646,27 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 99.06) (xy 45.72 99.06)
+			(xy 245.11 118.11) (xy 248.92 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ba3082-e7bc-4354-8447-0545a0442f52")
+	)
+	(wire
+		(pts
+			(xy 248.92 44.45) (xy 255.27 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74793a47-42c1-4b79-ae15-872819a97fd0")
+	)
+	(wire
+		(pts
+			(xy 44.45 99.06) (xy 46.99 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3525,6 +3693,26 @@
 			(type default)
 		)
 		(uuid "7ef77fcd-69b3-4a91-b6e6-a9a7af83f942")
+	)
+	(wire
+		(pts
+			(xy 245.11 82.55) (xy 248.92 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "818a3c74-d499-42f1-a2de-009acb9a75ae")
+	)
+	(wire
+		(pts
+			(xy 49.53 146.05) (xy 46.99 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8552b9f3-9a88-429c-a4b7-a874cdb8a8cc")
 	)
 	(wire
 		(pts
@@ -3558,7 +3746,17 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 76.2) (xy 255.27 76.2)
+			(xy 48.26 54.61) (xy 46.99 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b371ade-f937-410f-9fdd-9097dad5e7e9")
+	)
+	(wire
+		(pts
+			(xy 246.38 76.2) (xy 248.92 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3608,6 +3806,46 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 58.42) (xy 46.99 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adcbb0bb-6e53-4281-87ed-ecb727f68942")
+	)
+	(wire
+		(pts
+			(xy 46.99 58.42) (xy 46.99 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1004490-4074-4d1e-a515-d0bd0c3d513b")
+	)
+	(wire
+		(pts
+			(xy 49.53 102.87) (xy 46.99 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c14108-6e11-441b-8f66-bc85502b3efd")
+	)
+	(wire
+		(pts
+			(xy 46.99 99.06) (xy 48.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f3dfbf-2b2f-4435-bd06-3332d9c23c54")
+	)
+	(wire
+		(pts
 			(xy 57.15 31.75) (xy 60.96 31.75)
 		)
 		(stroke
@@ -3618,7 +3856,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 142.24) (xy 45.72 142.24)
+			(xy 44.45 142.24) (xy 46.99 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3628,7 +3866,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 187.96) (xy 45.72 187.96)
+			(xy 44.45 187.96) (xy 46.99 187.96)
 		)
 		(stroke
 			(width 0)
@@ -3648,7 +3886,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 142.24) (xy 53.34 142.24)
+			(xy 248.92 111.76) (xy 255.27 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd3e084e-ea79-42d5-bd38-fef90a5341e9")
+	)
+	(wire
+		(pts
+			(xy 60.96 142.24) (xy 55.88 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3665,6 +3913,16 @@
 			(type default)
 		)
 		(uuid "c2d8d6f7-3626-411b-b2e5-b33490b19028")
+	)
+	(wire
+		(pts
+			(xy 46.99 187.96) (xy 48.26 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c360233f-b56a-4492-976a-d7bb46d80b6f")
 	)
 	(wire
 		(pts
@@ -3758,7 +4016,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 99.06) (xy 53.34 99.06)
+			(xy 60.96 99.06) (xy 55.88 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3768,7 +4026,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 144.78) (xy 242.57 144.78)
+			(xy 236.22 144.78) (xy 238.76 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3788,7 +4046,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 44.45) (xy 242.57 44.45)
+			(xy 236.22 44.45) (xy 238.76 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3868,6 +4126,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 76.2) (xy 248.92 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e797c639-716b-476b-9a04-2abf126256fc")
+	)
+	(wire
+		(pts
 			(xy 53.34 157.48) (xy 57.15 157.48)
 		)
 		(stroke
@@ -3878,7 +4146,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 54.61) (xy 53.34 54.61)
+			(xy 60.96 54.61) (xy 55.88 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3888,7 +4156,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 144.78) (xy 255.27 144.78)
+			(xy 246.38 144.78) (xy 248.92 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3915,6 +4183,16 @@
 			(type default)
 		)
 		(uuid "ee6afad6-2eac-48c2-a7c0-891b4bac9d45")
+	)
+	(wire
+		(pts
+			(xy 49.53 191.77) (xy 46.99 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0a1bb16-a87b-4131-8e19-d4f0d71bbb90")
 	)
 	(wire
 		(pts
@@ -3955,6 +4233,16 @@
 			(type default)
 		)
 		(uuid "f6f3e772-55c1-46f3-b6dd-d74800bbd124")
+	)
+	(wire
+		(pts
+			(xy 248.92 111.76) (xy 248.92 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe4c41de-d379-439d-bac0-32f7b2857381")
 	)
 	(label "LED_C2"
 		(at 189.23 58.42 180)
@@ -4116,6 +4404,16 @@
 		)
 		(uuid "23f4152e-4b2c-4013-a65e-52ffa41e3102")
 	)
+	(label "AUDIO_IN_C"
+		(at 49.53 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24217476-eb30-4a73-a2a2-802ec5d249e9")
+	)
 	(label "LOG_D"
 		(at 80.01 166.37 180)
 		(effects
@@ -4175,6 +4473,26 @@
 			(justify right bottom)
 		)
 		(uuid "40268964-dde9-444d-8288-29ac4b0fd0f4")
+	)
+	(label "AUDIO_IN_B"
+		(at 49.53 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "426f848f-492e-4cdb-a04f-5ab5f91cbfed")
+	)
+	(label "AUDIO_OUT_C"
+		(at 245.11 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c872615-8317-4ce0-89b5-13f0eef0f52c")
 	)
 	(label "LED_MIX1"
 		(at 209.55 53.34 180)
@@ -4336,6 +4654,16 @@
 		)
 		(uuid "91acfcb9-65d8-4986-a2da-b59b3c401f44")
 	)
+	(label "AUDIO_OUT_B"
+		(at 245.11 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94288613-c348-4f09-960a-b58c9e6539aa")
+	)
 	(label "LED_C2"
 		(at 273.05 100.33 0)
 		(effects
@@ -4356,6 +4684,16 @@
 		)
 		(uuid "97dd1ebf-cfe7-4694-9248-cc11bb4e87d0")
 	)
+	(label "AUDIO_OUT_MIX"
+		(at 245.11 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9a15fcc7-4f3e-4a72-807c-bd8f62ee38e2")
+	)
 	(label "OUT_C"
 		(at 236.22 111.76 180)
 		(effects
@@ -4375,6 +4713,16 @@
 			(justify left bottom)
 		)
 		(uuid "9ee032ca-2af5-4e85-a81e-caf91ac290ce")
+	)
+	(label "AUDIO_IN_A"
+		(at 49.53 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0639edb-4964-46d6-b77c-2e54bc23deb6")
 	)
 	(label "OFFSET_C"
 		(at 60.96 120.65 0)
@@ -4526,6 +4874,16 @@
 		)
 		(uuid "c08404b7-e2be-41d5-b697-2f5c72727293")
 	)
+	(label "AUDIO_IN_D"
+		(at 49.53 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c167d471-56cb-405d-8142-ddce5fe0c894")
+	)
 	(label "LED_B1"
 		(at 247.65 64.77 180)
 		(effects
@@ -4575,6 +4933,16 @@
 			(justify right bottom)
 		)
 		(uuid "d29c3e98-c5d7-4292-bcd7-a96b3c4f604d")
+	)
+	(label "AUDIO_OUT_A"
+		(at 245.11 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d37009e8-9635-4eb3-b7af-12d1fa0d73d3")
 	)
 	(label "OFFSET_D"
 		(at 209.55 38.1 180)
@@ -4657,7 +5025,7 @@
 		(uuid "edd24ba2-cadd-4a3d-ae68-4ef14dee2865")
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 49.53 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4681,7 +5049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 49.53 159.258 90)
 			(effects
 				(font
@@ -4699,12 +5067,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 49.53 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4723,7 +5092,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 48.26 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4747,7 +5116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 48.26 84.328 90)
 			(effects
 				(font
@@ -4765,12 +5134,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 48.26 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5002,8 +5372,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 49.53 99.06 90)
+		(lib_id "Eurorack Common:R_DIN0207")
+		(at 52.07 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5011,7 +5381,7 @@
 		(dnp no)
 		(uuid "0eb4c861-ed50-4798-b237-d40dae57cc6b")
 		(property "Reference" "R6"
-			(at 49.53 96.52 90)
+			(at 52.07 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5019,15 +5389,15 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 49.53 99.06 90)
+			(at 52.07 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 49.53 100.838 90)
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 52.07 100.838 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,7 +5406,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 99.06 0)
+			(at 52.07 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5044,12 +5414,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 49.53 99.06 0)
+		(property "Description" "Resistor"
+			(at 52.07 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5424,7 +5795,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_Bidirectional")
+		(lib_id "Eurorack Common:LED_Dual_Bidirectional_3mm")
 		(at 260.35 33.02 0)
 		(mirror y)
 		(unit 1)
@@ -5449,7 +5820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "Eurorack Common:LED_D3.0mm"
 			(at 260.35 33.02 0)
 			(effects
 				(font
@@ -5492,7 +5863,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_Bidirectional")
+		(lib_id "Eurorack Common:LED_Dual_Bidirectional_3mm")
 		(at 260.35 64.77 0)
 		(mirror y)
 		(unit 1)
@@ -5517,7 +5888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "Eurorack Common:LED_D3.0mm"
 			(at 260.35 64.77 0)
 			(effects
 				(font
@@ -5964,8 +6335,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 49.53 54.61 90)
+		(lib_id "Eurorack Common:R_DIN0207")
+		(at 52.07 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5973,7 +6344,7 @@
 		(dnp no)
 		(uuid "4b1dc078-4e40-499c-bd7c-33be0559c2fe")
 		(property "Reference" "R4"
-			(at 49.53 52.07 90)
+			(at 52.07 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5981,15 +6352,15 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 49.53 54.61 90)
+			(at 52.07 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 49.53 56.388 90)
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 52.07 56.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5998,7 +6369,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 54.61 0)
+			(at 52.07 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6006,12 +6377,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 49.53 54.61 0)
+		(property "Description" "Resistor"
+			(at 52.07 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6030,7 +6402,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_Bidirectional")
+		(lib_id "Eurorack Common:LED_Dual_Bidirectional_3mm")
 		(at 260.35 100.33 0)
 		(mirror y)
 		(unit 1)
@@ -6055,7 +6427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "Eurorack Common:LED_D3.0mm"
 			(at 260.35 100.33 0)
 			(effects
 				(font
@@ -6198,7 +6570,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 49.53 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6222,7 +6594,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 49.53 70.358 90)
 			(effects
 				(font
@@ -6240,12 +6612,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 49.53 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6602,8 +6975,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 246.38 44.45 270)
+		(lib_id "Eurorack Common:R_DIN0207")
+		(at 242.57 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6611,7 +6984,7 @@
 		(dnp no)
 		(uuid "675f5b82-77ad-471d-abe8-884c0744ab82")
 		(property "Reference" "R13"
-			(at 246.38 46.99 90)
+			(at 242.57 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6619,15 +6992,15 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 246.38 44.45 90)
+			(at 242.57 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 246.38 42.672 90)
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 242.57 42.672 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6636,7 +7009,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 44.45 0)
+			(at 242.57 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6644,12 +7017,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 246.38 44.45 0)
+		(property "Description" "Resistor"
+			(at 242.57 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7163,7 +7537,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_Bidirectional")
+		(lib_id "Eurorack Common:LED_Dual_Bidirectional_3mm")
 		(at 260.35 132.08 0)
 		(mirror y)
 		(unit 1)
@@ -7188,7 +7562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "Eurorack Common:LED_D3.0mm"
 			(at 260.35 132.08 0)
 			(effects
 				(font
@@ -7231,7 +7605,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 49.53 127 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7255,7 +7629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 49.53 128.778 90)
 			(effects
 				(font
@@ -7273,12 +7647,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 49.53 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7638,8 +8013,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 246.38 144.78 270)
+		(lib_id "Eurorack Common:R_DIN0207")
+		(at 242.57 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7647,7 +8022,7 @@
 		(dnp no)
 		(uuid "a06b43ee-fb82-4578-94e6-1f705cf4174e")
 		(property "Reference" "R16"
-			(at 246.38 147.32 90)
+			(at 242.57 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7655,15 +8030,15 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 246.38 144.78 90)
+			(at 242.57 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 246.38 143.002 90)
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 242.57 143.002 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7672,7 +8047,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 144.78 0)
+			(at 242.57 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7680,12 +8055,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 246.38 144.78 0)
+		(property "Description" "Resistor"
+			(at 242.57 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7915,7 +8291,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 49.53 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7939,7 +8315,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 49.53 25.908 90)
 			(effects
 				(font
@@ -7957,12 +8333,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 49.53 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8052,8 +8429,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 49.53 142.24 90)
+		(lib_id "Eurorack Common:R_DIN0207")
+		(at 52.07 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8061,7 +8438,7 @@
 		(dnp no)
 		(uuid "b81a4efb-8ec9-4ffd-b5a9-74fdbc8d8850")
 		(property "Reference" "R9"
-			(at 49.53 139.7 90)
+			(at 52.07 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8069,15 +8446,15 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 49.53 142.24 90)
+			(at 52.07 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 49.53 144.018 90)
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 52.07 144.018 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8086,7 +8463,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 142.24 0)
+			(at 52.07 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8094,12 +8471,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 49.53 142.24 0)
+		(property "Description" "Resistor"
+			(at 52.07 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8631,8 +9009,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 49.53 187.96 90)
+		(lib_id "Eurorack Common:R_DIN0207")
+		(at 52.07 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8640,7 +9018,7 @@
 		(dnp no)
 		(uuid "d9892f67-3bf5-4689-ad3a-6882f64ef01f")
 		(property "Reference" "R12"
-			(at 49.53 185.42 90)
+			(at 52.07 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8648,15 +9026,15 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 49.53 187.96 90)
+			(at 52.07 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 49.53 189.738 90)
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 52.07 189.738 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8665,7 +9043,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 187.96 0)
+			(at 52.07 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8673,12 +9051,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 49.53 187.96 0)
+		(property "Description" "Resistor"
+			(at 52.07 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9399,7 +9778,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 49.53 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9423,7 +9802,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 49.53 39.878 90)
 			(effects
 				(font
@@ -9441,12 +9820,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 49.53 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9538,7 +9918,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 49.53 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9562,7 +9942,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 49.53 114.808 90)
 			(effects
 				(font
@@ -9580,12 +9960,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 49.53 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9677,7 +10058,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Eurorack Common:R_DIN0207")
 		(at 49.53 171.45 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9701,7 +10082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 49.53 173.228 90)
 			(effects
 				(font
@@ -9719,12 +10100,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 49.53 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9743,8 +10125,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 246.38 76.2 270)
+		(lib_id "Eurorack Common:R_DIN0207")
+		(at 242.57 76.2 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9752,7 +10134,7 @@
 		(dnp no)
 		(uuid "f940e7f0-159d-4dd0-a542-b4dd14a1d130")
 		(property "Reference" "R14"
-			(at 246.38 78.74 90)
+			(at 242.57 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9760,15 +10142,15 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 246.38 76.2 90)
+			(at 242.57 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 246.38 74.422 90)
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 242.57 74.422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9777,7 +10159,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 76.2 0)
+			(at 242.57 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9785,12 +10167,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 246.38 76.2 0)
+		(property "Description" "Resistor"
+			(at 242.57 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9876,8 +10259,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 246.38 111.76 270)
+		(lib_id "Eurorack Common:R_DIN0207")
+		(at 242.57 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9885,7 +10268,7 @@
 		(dnp no)
 		(uuid "ff2539c4-da86-4f62-8af5-f175e209b1bc")
 		(property "Reference" "R15"
-			(at 246.38 114.3 90)
+			(at 242.57 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9893,15 +10276,15 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 246.38 111.76 90)
+			(at 242.57 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 246.38 109.982 90)
+		(property "Footprint" "Eurorack Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 242.57 109.982 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9910,7 +10293,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 111.76 0)
+			(at 242.57 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9918,12 +10301,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 246.38 111.76 0)
+		(property "Description" "Resistor"
+			(at 242.57 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"

@@ -55,3 +55,19 @@ outputs:
       separate_files_for_front_and_back: false
       only_smd: false
       output: '%f_cpl_jlc.%x'
+
+  - name: ibom
+    type: ibom
+    dir: ibom
+    options:
+      dark_mode: false
+      hide_pads: false
+      show_fabrication: false
+      hide_silkscreen: false
+      highlight_pin1: true
+      no_redraw_on_drag: false
+      board_rotation: 0
+      checkboxes: 'Sourced,Placed'
+      bom_view: 'left-right'
+      layer_view: 'FB'
+      name_format: '%p_interactive_bom'
