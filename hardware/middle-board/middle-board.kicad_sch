@@ -7730,7 +7730,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x10_Socket"
+		(property "Value" "01x10 Male Pin Header"
 			(at 66.294 88.9 0)
 			(effects
 				(font
@@ -8045,7 +8045,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x10_Pin"
+		(property "Value" "01x10 Male Pin Header"
 			(at 93.98 88.138 0)
 			(effects
 				(font
@@ -8337,7 +8337,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x12_Pin"
+		(property "Value" "01x12 Female Pin Header"
 			(at 102.87 36.068 0)
 			(effects
 				(font
@@ -8506,7 +8506,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x09_Socket"
+		(property "Value" "01x09 Female Pin Header"
 			(at 88.9 53.3399 0)
 			(effects
 				(font
@@ -8997,7 +8997,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x15_Socket"
+		(property "Value" "01x13 Female Pin Header"
 			(at 28.194 39.37 0)
 			(effects
 				(font
@@ -10304,7 +10304,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x09_Socket"
+		(property "Value" "01x09 Female Pin Header"
 			(at 51.562 37.338 0)
 			(effects
 				(font

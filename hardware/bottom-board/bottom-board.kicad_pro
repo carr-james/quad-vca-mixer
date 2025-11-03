@@ -60,10 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "silk_over_copper|35028351|123980743|7e9a1bfa-118e-4cf4-b16c-cc447f347bf9|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "silk_over_copper|47773443|51446651|ce2caa4f-205c-41d9-a764-b73b8e67d63b|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -626,12 +622,24 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

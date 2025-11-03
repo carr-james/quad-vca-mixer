@@ -5177,7 +5177,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Thonkicon"
 			(at 265.43 45.0849 0)
 			(effects
 				(font
@@ -5250,7 +5250,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Thonkicon"
 			(at 34.29 113.6649 0)
 			(effects
 				(font
@@ -5523,7 +5523,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x09_Socket"
+		(property "Value" "01x09 Male Pin Header"
 			(at 158.242 33.528 0)
 			(effects
 				(font
@@ -5812,7 +5812,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_Dual_Bidirectional"
+		(property "Value" "Bipolar LED"
 			(at 259.8547 25.4 0)
 			(effects
 				(font
@@ -5880,7 +5880,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_Dual_Bidirectional"
+		(property "Value" "Bipolar LED"
 			(at 259.8547 57.15 0)
 			(effects
 				(font
@@ -6214,7 +6214,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Thonkicon"
 			(at 34.29 69.2149 0)
 			(effects
 				(font
@@ -6419,7 +6419,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_Dual_Bidirectional"
+		(property "Value" "Bipolar LED"
 			(at 259.8547 92.71 0)
 			(effects
 				(font
@@ -6487,7 +6487,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x12_Pin"
+		(property "Value" "01x12 Male Pin Header"
 			(at 209.55 32.258 0)
 			(effects
 				(font
@@ -6855,7 +6855,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Thonkicon"
 			(at 34.29 99.6949 0)
 			(effects
 				(font
@@ -7060,7 +7060,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Thonkicon"
 			(at 265.43 76.8349 0)
 			(effects
 				(font
@@ -7132,7 +7132,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Thonkicon"
 			(at 265.43 145.4149 0)
 			(effects
 				(font
@@ -7272,7 +7272,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Thonkicon"
 			(at 34.29 142.8749 0)
 			(effects
 				(font
@@ -7344,7 +7344,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Thonkicon"
 			(at 265.43 112.3949 0)
 			(effects
 				(font
@@ -7417,7 +7417,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Thonkicon"
 			(at 34.29 55.2449 0)
 			(effects
 				(font
@@ -7554,7 +7554,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_Dual_Bidirectional"
+		(property "Value" "Bipolar LED"
 			(at 259.8547 124.46 0)
 			(effects
 				(font
@@ -7754,7 +7754,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "A100K"
 			(at 39.37 80.01 90)
 			(effects
 				(font
@@ -7959,7 +7959,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Thonkicon"
 			(at 34.29 188.5949 0)
 			(effects
 				(font
@@ -8097,7 +8097,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Subminiture SPDT"
 			(at 86.7922 26.797 90)
 			(effects
 				(font
@@ -8170,7 +8170,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "A100K"
 			(at 39.37 168.91 90)
 			(effects
 				(font
@@ -8375,7 +8375,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "A100K"
 			(at 39.37 35.56 90)
 			(effects
 				(font
@@ -8513,7 +8513,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Subminiture SPDT"
 			(at 86.7922 160.147 90)
 			(effects
 				(font
@@ -8586,7 +8586,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Subminiture SPDT"
 			(at 86.7922 69.977 90)
 			(effects
 				(font
@@ -8725,7 +8725,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x13_Socket"
+		(property "Value" "01x13 Male Pin Header"
 			(at 134.874 35.56 0)
 			(effects
 				(font
@@ -9230,7 +9230,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Thonkicon"
 			(at 34.29 158.1149 0)
 			(effects
 				(font
@@ -9368,7 +9368,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x09_Socket"
+		(property "Value" "01x09 Male Pin Header"
 			(at 195.58 49.5299 0)
 			(effects
 				(font
@@ -9724,7 +9724,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "A100K"
 			(at 39.37 124.46 90)
 			(effects
 				(font
@@ -9862,7 +9862,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Subminiture SPDT"
 			(at 86.7922 114.427 90)
 			(effects
 				(font
@@ -10004,7 +10004,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Thonkicon"
 			(at 34.29 24.7649 0)
 			(effects
 				(font

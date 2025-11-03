@@ -4574,7 +4574,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x10_Socket"
+		(property "Value" "01x10 Female Pin Header"
 			(at 20.574 27.94 0)
 			(effects
 				(font
@@ -4826,7 +4826,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x10_Pin"
+		(property "Value" "01x10 Female Pin Header"
 			(at 52.07 27.178 0)
 			(effects
 				(font

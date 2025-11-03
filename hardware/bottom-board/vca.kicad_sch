@@ -3312,7 +3312,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "B100K"
 			(at 184.15 87.63 90)
 			(effects
 				(font
