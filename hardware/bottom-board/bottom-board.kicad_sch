@@ -3966,6 +3966,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 52.07 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1508ad4c-1d1e-4d7b-b038-0ce45207f464")
 		)
@@ -4094,6 +4103,15 @@
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, TSOT-23-14"
+			(at 48.26 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 48.26 135.89 0)
 			(effects
 				(font
@@ -4265,6 +4283,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 52.07 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 52.07 140.97 0)
 			(effects
 				(font
@@ -4541,6 +4568,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 74.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3e5f688-c865-4cdc-94dc-faeb9f872030")
 		)
@@ -4603,6 +4639,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated"
+			(at 35.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 35.56 40.64 0)
 			(effects
 				(font
@@ -4769,6 +4814,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bde63765-fe15-4b71-8ee0-98cc952b0eab")
 		)
@@ -4855,6 +4909,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated"
+			(at 57.15 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 57.15 40.64 0)
 			(effects
 				(font
@@ -5418,6 +5481,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" "Bulk decoupling"
+			(at 30.48 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "317a109d-58d6-4a57-8932-96c2f6841bef")
 		)
@@ -5687,6 +5759,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 74.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9d23489a-a3e5-48fb-96e4-9fee030a8ec0")
 		)
@@ -5816,6 +5897,15 @@
 			)
 		)
 		(property "Description" "Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, SOIC-16, drop in replacement for LM13700"
+			(at 68.58 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 68.58 135.89 0)
 			(effects
 				(font
@@ -5995,6 +6085,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 30.48 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "Bulk decoupling"
 			(at 30.48 130.81 0)
 			(effects
 				(font

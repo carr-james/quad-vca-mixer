@@ -68,6 +68,7 @@ outputs:
       no_redraw_on_drag: false
       board_rotation: 0
       checkboxes: 'Sourced,Placed'
+      show_fields: "Value,Footprint,Description,Datasheet"
       bom_view: 'left-right'
       layer_view: 'FB'
       name_format: '%p_interactive_bom'
