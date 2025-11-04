@@ -1,0 +1,3620 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a6e20c37-205f-477d-8fe7-334b9e1a3d82")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Eurorack Common:Alpha_Potentiometer"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Eurorack Common:Alpha Potentiometer"
+				(at 0.635 12.065 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Alpha_Potentiometer_0_0"
+				(text "CW"
+					(at 1.905 -1.905 900)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(symbol "Alpha_Potentiometer_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Alpha_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Eurorack Common:AudioJack2_SwitchT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J3"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "JACK_2P"
+				(at -0.635 4.9729 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle mono headphones phone TS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack2_SwitchT_0_1"
+				(rectangle
+					(start -2.54 0)
+					(end -3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -0.254) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.778 -2.54) (xy 1.778 -0.254) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AudioJack2_SwitchT_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Eurorack Common:LED_Dual_Bidirectional_3mm"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_Dual_Bidirectional_3mm"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Eurorack Common:LED_D3.0mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual LED, bidirectional"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode bicolor dual 3mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Dual_Bidirectional_3mm_0_1"
+				(polyline
+					(pts
+						(xy -4.572 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 3.81) (xy -1.016 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.016 -3.81) (xy 1.27 -2.54) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 4.572)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 1.27 1.27) (xy -1.016 2.54) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 2.54) (xy -2.032 2.54) (xy -2.032 -2.54) (xy 2.286 -2.54) (xy 2.286 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.286 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 4.318) (xy 4.318 5.842) (xy 3.556 5.842)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 3.048) (xy 5.588 4.572) (xy 4.826 4.572)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 0) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 5.842) (xy 4.318 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 4.572) (xy 5.588 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Dual_Bidirectional_3mm_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.048)
+					(name "AK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "KA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:Jumper_2_Small_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Small_Bridged"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, small symbol, bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_1"
+				(arc
+					(start -0.762 0.254)
+					(mid 0 0.5696)
+					(end 0.762 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 227.33 16.51)
+		(end 284.48 154.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cd923815-e6a2-4e0e-94fd-2b42318f8dc8)
+	)
+	(text "Offset Adjust D"
+		(exclude_from_sim no)
+		(at 17.272 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2428fca1-15b0-4d64-b046-ac68da2872f3")
+	)
+	(text "Inputs + Controls"
+		(exclude_from_sim no)
+		(at 16.764 14.478 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3545a648-e6ec-49fc-9288-a5322b2d75c7")
+	)
+	(text "Offset Adjust A"
+		(exclude_from_sim no)
+		(at 17.78 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b6a6676-1bd7-4cd2-a1c6-876ab1d11075")
+	)
+	(text "Offset Adjust C"
+		(exclude_from_sim no)
+		(at 17.78 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bcf05fbb-33db-42ae-a5af-77f0ce6d6490")
+	)
+	(text "Offset Adjust B"
+		(exclude_from_sim no)
+		(at 17.272 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d457f2d8-3a39-4490-ac0e-bc9929021cf9")
+	)
+	(text "Outputs"
+		(exclude_from_sim no)
+		(at 228.346 14.478 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8100a09-df0c-4d87-9d46-a5be003ccbd6")
+	)
+	(no_connect
+		(at 81.28 26.67)
+		(uuid "0048263d-31b8-4ef4-8a30-aa81b7409606")
+	)
+	(no_connect
+		(at 81.28 31.75)
+		(uuid "01b10da2-a5ea-4aa9-80a8-2190e9707b5a")
+	)
+	(no_connect
+		(at 256.54 72.39)
+		(uuid "031e8b1f-32f1-41cc-ac87-5d1b3259366a")
+	)
+	(no_connect
+		(at 44.45 125.73)
+		(uuid "10d5485c-972d-4522-93e5-f2779c0a611a")
+	)
+	(no_connect
+		(at 45.72 153.67)
+		(uuid "150c33bf-1266-498d-9e15-708d0008cb79")
+	)
+	(no_connect
+		(at 45.72 138.43)
+		(uuid "18be879b-316e-40b8-92db-f2fe163fff79")
+	)
+	(no_connect
+		(at 256.54 107.95)
+		(uuid "1b76581d-137f-4ae0-b856-3ea80f31e047")
+	)
+	(no_connect
+		(at 256.54 43.18)
+		(uuid "1b91982e-1d24-4e0d-8b4f-30d9eb677c3c")
+	)
+	(no_connect
+		(at 256.54 146.05)
+		(uuid "1c7ba329-6402-4c33-8e4c-27f4cbac7e61")
+	)
+	(no_connect
+		(at 81.28 165.1)
+		(uuid "22b7ca07-b880-4699-9893-428de449c09a")
+	)
+	(no_connect
+		(at 44.45 36.83)
+		(uuid "235ea645-aa39-4c43-aad3-b562a39c66bf")
+	)
+	(no_connect
+		(at 254 130.81)
+		(uuid "23c7e5d0-64c5-49ae-86e4-8b0ae6cc733a")
+	)
+	(no_connect
+		(at 91.44 162.56)
+		(uuid "26939a33-55a4-4b30-b903-514855755c3f")
+	)
+	(no_connect
+		(at 91.44 72.39)
+		(uuid "3349f958-1e81-4b79-b756-80ab4376b8d6")
+	)
+	(no_connect
+		(at 45.72 114.3)
+		(uuid "3351f70a-e989-4041-a453-4f546ea84b5b")
+	)
+	(no_connect
+		(at 269.24 99.06)
+		(uuid "35a9d24e-83f0-417a-982c-d850baaa9bad")
+	)
+	(no_connect
+		(at 45.72 186.69)
+		(uuid "39c7cf25-7f65-4717-96ef-dfea58a62c9f")
+	)
+	(no_connect
+		(at 40.64 77.47)
+		(uuid "3a9664b0-be4c-4dd8-9b12-db015c78f1c4")
+	)
+	(no_connect
+		(at 81.28 119.38)
+		(uuid "3e906548-0f56-4a39-9ba9-2c799eebf022")
+	)
+	(no_connect
+		(at 45.72 67.31)
+		(uuid "48eda0de-9f4b-4ec4-9de2-434279191e9b")
+	)
+	(no_connect
+		(at 45.72 22.86)
+		(uuid "660c4ec2-c773-428c-bbd6-388a26c66875")
+	)
+	(no_connect
+		(at 256.54 77.47)
+		(uuid "6c806589-532e-4bc3-88f5-59f43cc76cfb")
+	)
+	(no_connect
+		(at 45.72 50.8)
+		(uuid "6f94b4db-3337-4168-8a41-9472e978cd7b")
+	)
+	(no_connect
+		(at 45.72 140.97)
+		(uuid "705a7920-5b27-4283-b0ab-4e370bde2279")
+	)
+	(no_connect
+		(at 45.72 189.23)
+		(uuid "70857ca0-8a05-4b7b-91e2-f9fda1621bf0")
+	)
+	(no_connect
+		(at 40.64 129.54)
+		(uuid "7468d713-3be9-4423-a8f0-56ebad715e15")
+	)
+	(no_connect
+		(at 269.24 130.81)
+		(uuid "7bd5891a-d41c-446f-80cf-f485eda9d537")
+	)
+	(no_connect
+		(at 256.54 140.97)
+		(uuid "7e7691a8-8482-410d-81cd-a1800bb000cb")
+	)
+	(no_connect
+		(at 45.72 111.76)
+		(uuid "81837ff7-1f8d-4f1d-bba1-886623f635c9")
+	)
+	(no_connect
+		(at 40.64 33.02)
+		(uuid "852a0e78-3750-46d7-8a74-429564c25e82")
+	)
+	(no_connect
+		(at 40.64 173.99)
+		(uuid "87095b82-f716-49c0-bc44-25a47e5078ca")
+	)
+	(no_connect
+		(at 45.72 95.25)
+		(uuid "871bbb6f-bbd0-4026-870a-af85e703c278")
+	)
+	(no_connect
+		(at 45.72 109.22)
+		(uuid "8ae368ca-125f-4942-9a93-d4318ed8d297")
+	)
+	(no_connect
+		(at 44.45 170.18)
+		(uuid "8dcbc344-4513-4540-b5c6-813aef063a71")
+	)
+	(no_connect
+		(at 45.72 143.51)
+		(uuid "9308c3dd-4032-42de-bb4b-70048feec4bb")
+	)
+	(no_connect
+		(at 45.72 100.33)
+		(uuid "976aadaf-97f5-4c27-a65b-8ec8c8385072")
+	)
+	(no_connect
+		(at 45.72 64.77)
+		(uuid "9a347cf6-c64b-44ae-a5da-afd687304eab")
+	)
+	(no_connect
+		(at 254 63.5)
+		(uuid "9a658eb1-49ae-4aee-86b1-32de18315e11")
+	)
+	(no_connect
+		(at 40.64 85.09)
+		(uuid "9d0b89be-f318-4c9d-95c4-425a3f296328")
+	)
+	(no_connect
+		(at 256.54 113.03)
+		(uuid "9d53a5a5-031c-44fd-a876-f87d43c3924e")
+	)
+	(no_connect
+		(at 81.28 160.02)
+		(uuid "9da97395-48a6-4e0c-84c4-5fc921406863")
+	)
+	(no_connect
+		(at 254 99.06)
+		(uuid "a0d536e3-1215-47d9-af80-3b4f8d4d8d20")
+	)
+	(no_connect
+		(at 45.72 53.34)
+		(uuid "a48998c1-230b-49a0-a9b4-757671d7e968")
+	)
+	(no_connect
+		(at 45.72 25.4)
+		(uuid "a61e129c-2c76-4245-ad8b-1ae0fe1cade3")
+	)
+	(no_connect
+		(at 256.54 74.93)
+		(uuid "a7466d33-78f1-4f5f-b736-3640f481228e")
+	)
+	(no_connect
+		(at 40.64 40.64)
+		(uuid "ab97d400-c794-4fe4-a8ae-5d7a681879c3")
+	)
+	(no_connect
+		(at 45.72 81.28)
+		(uuid "b4d7e47d-952e-46a8-af28-d586b87d029f")
+	)
+	(no_connect
+		(at 91.44 29.21)
+		(uuid "b8c3cabf-9cf8-4bc3-96d2-bacf041f321a")
+	)
+	(no_connect
+		(at 91.44 116.84)
+		(uuid "b8f1fbb1-7c2e-4b0d-8524-dce269b80e66")
+	)
+	(no_connect
+		(at 40.64 166.37)
+		(uuid "bc8b84a3-ff0d-4ca1-99d2-a453b6aa3301")
+	)
+	(no_connect
+		(at 45.72 97.79)
+		(uuid "bcc50c49-fb84-413e-b1a6-c1400f1a400a")
+	)
+	(no_connect
+		(at 256.54 143.51)
+		(uuid "c3c033bb-72bf-4ad4-8b01-bdd11f8c096b")
+	)
+	(no_connect
+		(at 45.72 55.88)
+		(uuid "ce67c6fb-9429-4d9a-bb66-3a25c7e953db")
+	)
+	(no_connect
+		(at 256.54 45.72)
+		(uuid "d190aebf-953f-4fb1-9eba-941ef142e2ab")
+	)
+	(no_connect
+		(at 269.24 63.5)
+		(uuid "d2c71f31-379f-4642-953d-eceba5987ac9")
+	)
+	(no_connect
+		(at 81.28 74.93)
+		(uuid "d537bbf8-405d-4f55-8566-dfa17306a604")
+	)
+	(no_connect
+		(at 256.54 40.64)
+		(uuid "d8309b6b-9ed9-49b3-9ca1-bd9e78434ac3")
+	)
+	(no_connect
+		(at 269.24 31.75)
+		(uuid "dad60b7c-4a5a-469b-95ff-7a9eecfe075a")
+	)
+	(no_connect
+		(at 40.64 121.92)
+		(uuid "dc294353-ca0f-48b2-82e7-da1d7e7245dd")
+	)
+	(no_connect
+		(at 45.72 158.75)
+		(uuid "df22a72d-4c72-4ab5-b71b-f3fc6d151524")
+	)
+	(no_connect
+		(at 81.28 69.85)
+		(uuid "e03829ab-5596-42c2-a170-c0796d0a3ec7")
+	)
+	(no_connect
+		(at 81.28 114.3)
+		(uuid "e29e67e4-4edc-49c0-a399-d52709d3b117")
+	)
+	(no_connect
+		(at 45.72 69.85)
+		(uuid "e374405a-3226-4be3-b213-01bf2d714089")
+	)
+	(no_connect
+		(at 45.72 184.15)
+		(uuid "ea284208-0a1b-4859-ab22-586d3b3a6170")
+	)
+	(no_connect
+		(at 256.54 110.49)
+		(uuid "ed91aeed-b975-4fe2-af89-b2124a819382")
+	)
+	(no_connect
+		(at 254 31.75)
+		(uuid "ef5bc4d9-cb87-45ff-8da2-a46af6ca9fce")
+	)
+	(no_connect
+		(at 45.72 156.21)
+		(uuid "f3bd7c15-1b67-4812-b095-f2aa4588235a")
+	)
+	(no_connect
+		(at 45.72 20.32)
+		(uuid "f4cfe583-c9ae-497f-afed-5cdca9d6c0d2")
+	)
+	(wire
+		(pts
+			(xy 44.45 81.28) (xy 45.72 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031d4625-e911-46f0-8cbf-622ac22d2412")
+	)
+	(wire
+		(pts
+			(xy 110.49 185.42) (xy 146.05 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24480d1f-8ce8-46cc-85b0-0eda44c2366a")
+	)
+	(wire
+		(pts
+			(xy 110.49 179.07) (xy 146.05 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb84b771-a795-4f1a-ad2a-ecc19f4c2ec6")
+	)
+	(label "DUMMY_NET_A"
+		(at 121.92 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0433323-974d-459d-9384-1a5aa2a5a4f5")
+	)
+	(label "DUMMY_NET_B"
+		(at 121.92 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c969ebbd-c014-4a08-82a3-4cb642cf2ac0")
+	)
+	(symbol
+		(lib_id "Eurorack Common:AudioJack2_SwitchT")
+		(at 261.62 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0271ce88-ef27-4a7f-bf17-be1df3b4f30b")
+		(property "Reference" "J13"
+			(at 266.7 41.2749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Thonkicon"
+			(at 266.7 43.8149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Eurorack Common:Thonkicon_FP"
+			(at 261.62 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "S"
+			(uuid "8ee7eb60-0fcb-44ad-b465-abdda09131cf")
+		)
+		(pin "T"
+			(uuid "79a47b56-4e97-47dc-8625-23952eec014f")
+		)
+		(pin "TN"
+			(uuid "f0cfbd63-aee1-4f4b-b009-c42e3bfbff7c")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack Common:AudioJack2_SwitchT")
+		(at 40.64 111.76 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "060464da-9757-443c-a26e-2fc705bad7a4")
+		(property "Reference" "J5"
+			(at 35.56 109.8549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Thonkicon"
+			(at 35.56 112.3949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Eurorack Common:Thonkicon_FP"
+			(at 40.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "S"
+			(uuid "36ab9033-1fb3-42ab-afaf-a246c330dba5")
+		)
+		(pin "T"
+			(uuid "bf466d0e-bc06-491e-8bfd-7c140b210dab")
+		)
+		(pin "TN"
+			(uuid "9c1cd759-1c91-4cd9-8663-4f82d41f35a8")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 102.87 185.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c496292-bc30-4df0-b2be-e3397fa21c8f")
+		(property "Reference" "JP3"
+			(at 104.0822 186.6246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 101.6579 186.6246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 102.87 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 102.87 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a26c0096-0e98-4e47-b5c7-98587c9c92b4")
+		)
+		(pin "1"
+			(uuid "4f5f01ed-5dc4-4e1c-b36c-d0f481382845")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack Common:LED_Dual_Bidirectional_3mm")
+		(at 261.62 31.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d6ca5c3-e087-42de-aa13-2f4fad4fcdb6")
+		(property "Reference" "D1"
+			(at 261.1247 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Bipolar LED"
+			(at 261.1247 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Eurorack Common:LED_D3.0mm_FP"
+			(at 261.62 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual LED, bidirectional"
+			(at 261.62 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "85b47844-e70c-468a-8ecd-18bae1d05dec")
+		)
+		(pin "1"
+			(uuid "8e5cb7b3-3ebd-47f6-9821-006a1c8e5f0d")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack Common:LED_Dual_Bidirectional_3mm")
+		(at 261.62 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e3a4469-78e5-481b-b2bd-03d0b647bd59")
+		(property "Reference" "D2"
+			(at 261.1247 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Bipolar LED"
+			(at 261.1247 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Eurorack Common:LED_D3.0mm_FP"
+			(at 261.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual LED, bidirectional"
+			(at 261.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa9acd0b-d01b-4ac1-ab39-db1d361a6c4e")
+		)
+		(pin "1"
+			(uuid "d3349869-656f-48cd-aae4-5db6356a0529")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack Common:AudioJack2_SwitchT")
+		(at 40.64 67.31 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b2e336a-1a20-41a2-9b72-6b39dc550a5b")
+		(property "Reference" "J3"
+			(at 35.56 65.4049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Thonkicon"
+			(at 35.56 67.9449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Eurorack Common:Thonkicon_FP"
+			(at 40.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "S"
+			(uuid "bdbc52aa-1c26-4596-b6bb-ccb00019666c")
+		)
+		(pin "T"
+			(uuid "c4874919-7ab0-4f20-ae63-5c9a54655828")
+		)
+		(pin "TN"
+			(uuid "2cb07a66-2fcf-41a6-8002-010e4b210ed8")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 107.95 179.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46e160bc-b3f8-4522-ab13-120ad9c7a888")
+		(property "Reference" "JP2"
+			(at 109.1622 180.2746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 106.7379 180.2746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 107.95 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 107.95 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0082809-8fa5-4b15-92dd-5260bf870fb2")
+		)
+		(pin "1"
+			(uuid "1d26ab47-d83a-4cec-9ced-1ca81189fa26")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack Common:LED_Dual_Bidirectional_3mm")
+		(at 261.62 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "552839ca-f1d5-4c37-b710-7ccd4718d999")
+		(property "Reference" "D3"
+			(at 261.1247 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Bipolar LED"
+			(at 261.1247 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Eurorack Common:LED_D3.0mm_FP"
+			(at 261.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual LED, bidirectional"
+			(at 261.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f4d000e-94e5-4c4f-bba5-8a0713d382ab")
+		)
+		(pin "1"
+			(uuid "02fcc465-7c43-4339-998d-5e7415b27463")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack Common:AudioJack2_SwitchT")
+		(at 40.64 97.79 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64b13eda-5caf-43e3-ad58-f43ebc74be99")
+		(property "Reference" "J4"
+			(at 35.56 95.8849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Thonkicon"
+			(at 35.56 98.4249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Eurorack Common:Thonkicon_FP"
+			(at 40.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "S"
+			(uuid "f89d55f5-1437-4dec-b1d4-6a5acac5d7a2")
+		)
+		(pin "T"
+			(uuid "554a4f44-72f9-4c98-a8c3-60c59381ba4d")
+		)
+		(pin "TN"
+			(uuid "6e369d51-36f4-4d46-b6c8-bea78d78073e")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 146.05 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a1e6af3-bf7a-418c-a4f1-bcee703837d6")
+		(property "Reference" "#FLG02"
+			(at 146.05 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 146.05 181.2869 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 146.05 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee682e02-a4cf-4515-91ac-a80b08a7faf2")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack Common:AudioJack2_SwitchT")
+		(at 261.62 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e426b94-b6ca-416c-a7c0-c51b3e29b877")
+		(property "Reference" "J14"
+			(at 266.7 73.0249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Thonkicon"
+			(at 266.7 75.5649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Eurorack Common:Thonkicon_FP"
+			(at 261.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "S"
+			(uuid "a722aa04-7c2e-4baa-a50b-b3117e5258c0")
+		)
+		(pin "T"
+			(uuid "ababeae9-4e5e-4863-a702-45698a55b9a1")
+		)
+		(pin "TN"
+			(uuid "44d79a08-53da-43e6-8e9f-b9c7bfd186ef")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack Common:AudioJack2_SwitchT")
+		(at 261.62 143.51 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "723acc02-ba91-4ec5-8392-8b0358427c57")
+		(property "Reference" "J16"
+			(at 266.7 141.6049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Thonkicon"
+			(at 266.7 144.1449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Eurorack Common:Thonkicon_FP"
+			(at 261.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "S"
+			(uuid "acabe318-fa7d-4937-aa58-e3b08ad51ffe")
+		)
+		(pin "T"
+			(uuid "7ae0d0c1-bf8b-456a-9272-7fdafd8d9475")
+		)
+		(pin "TN"
+			(uuid "5393970b-3312-4c90-970a-995620cf8c7e")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack Common:AudioJack2_SwitchT")
+		(at 40.64 140.97 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75aac7c5-1051-4bb0-9c80-272fb618c3a6")
+		(property "Reference" "J6"
+			(at 35.56 139.0649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Thonkicon"
+			(at 35.56 141.6049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Eurorack Common:Thonkicon_FP"
+			(at 40.64 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "S"
+			(uuid "35c92421-800c-4295-b38c-1276ab6c6ec6")
+		)
+		(pin "T"
+			(uuid "eb6c62fd-9e85-4524-9745-afccf1221d05")
+		)
+		(pin "TN"
+			(uuid "cd16b3df-f8cd-47b7-9753-296b819fd8e8")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack Common:AudioJack2_SwitchT")
+		(at 261.62 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7679cd28-7b82-4c2b-868c-56ab310a25c5")
+		(property "Reference" "J15"
+			(at 266.7 108.5849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Thonkicon"
+			(at 266.7 111.1249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Eurorack Common:Thonkicon_FP"
+			(at 261.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "S"
+			(uuid "0909080d-eb90-4c78-bb0e-38d4739e5658")
+		)
+		(pin "T"
+			(uuid "6c70cf2c-81d2-4054-928a-35578b53d944")
+		)
+		(pin "TN"
+			(uuid "9c270b80-8726-45d9-ba9a-8604239ce6c2")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack Common:AudioJack2_SwitchT")
+		(at 40.64 53.34 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b5909bd-89d8-47d0-ad25-da96508b923a")
+		(property "Reference" "J2"
+			(at 35.56 51.4349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Thonkicon"
+			(at 35.56 53.9749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Eurorack Common:Thonkicon_FP"
+			(at 40.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "S"
+			(uuid "292cbf79-3632-408c-8236-245ba9d04254")
+		)
+		(pin "T"
+			(uuid "bab4b553-2845-47d2-b42a-1b61b9a3a0e6")
+		)
+		(pin "TN"
+			(uuid "50e9313a-818a-4654-ac92-86f91817f371")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 107.95 185.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a4e3097-4223-4bd4-8a27-7dcbd005c2b3")
+		(property "Reference" "JP1"
+			(at 109.1622 186.6246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 106.7379 186.6246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 107.95 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 107.95 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "306d45a3-81d3-41e4-99bb-3877c6d68675")
+		)
+		(pin "1"
+			(uuid "fc041b4a-a77b-4954-8021-5230d59a984a")
+		)
+		(instances
+			(project ""
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack Common:LED_Dual_Bidirectional_3mm")
+		(at 261.62 130.81 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d4b4ee7-219e-4c4d-8f3e-96cd6e35b304")
+		(property "Reference" "D4"
+			(at 261.1247 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Bipolar LED"
+			(at 261.1247 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Eurorack Common:LED_D3.0mm_FP"
+			(at 261.62 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual LED, bidirectional"
+			(at 261.62 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c94534b1-1cd0-4196-aeb1-95e492ecbeb5")
+		)
+		(pin "1"
+			(uuid "54648b1b-541e-48aa-bdda-4dbf0f2e0d9b")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack Common:Alpha_Potentiometer")
+		(at 40.64 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9534a13c-f97d-4008-a236-1b8957334462")
+		(property "Reference" "RV2"
+			(at 39.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "A100K"
+			(at 40.64 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Eurorack Common:Alpha Potentiometer_FP"
+			(at 41.275 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26acfb50-4625-40a0-81cb-7811d1063157")
+		)
+		(pin "2"
+			(uuid "88e33791-7668-45b5-9138-aff0a0e42f59")
+		)
+		(pin "3"
+			(uuid "25acd178-d83f-4b3d-8dee-f779fec13b2b")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "RV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack Common:AudioJack2_SwitchT")
+		(at 40.64 186.69 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e6a2f72-47f5-4b03-9dd3-4d5e23acf2db")
+		(property "Reference" "J8"
+			(at 35.56 184.7849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Thonkicon"
+			(at 35.56 187.3249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Eurorack Common:Thonkicon_FP"
+			(at 40.64 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "S"
+			(uuid "b7fc97e3-a9f3-435f-9076-0d62c12d29be")
+		)
+		(pin "T"
+			(uuid "427bc8ee-30e5-434e-961e-435c7dca52b1")
+		)
+		(pin "TN"
+			(uuid "e5bcc28f-18d7-4309-9eb4-8cad9af5a529")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 102.87 179.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4d5c124-d163-4363-be9d-0760f638f6a5")
+		(property "Reference" "JP4"
+			(at 104.0822 180.2746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 101.6579 180.2746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 102.87 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 102.87 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "528c6727-9b41-4e14-a5d3-1d51eaf73f17")
+		)
+		(pin "1"
+			(uuid "6d8bc30e-febd-4549-a76a-8139823cd6bf")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 86.36 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7706a65-178f-4c37-8226-b2297737ed9b")
+		(property "Reference" "SW1"
+			(at 86.36 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Subminiture SPDT"
+			(at 88.0622 25.527 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Eurorack Common:Sub-Miniature SPDT_FP"
+			(at 86.36 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 86.36 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e74160e2-d5ad-4d4f-b983-9b11cf5cbeb5")
+		)
+		(pin "2"
+			(uuid "04565686-0f81-4fd8-bcc3-959fa6da9c34")
+		)
+		(pin "3"
+			(uuid "ef6bcef1-edd1-4d3a-9b68-5b62684da5e3")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack Common:Alpha_Potentiometer")
+		(at 40.64 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a88a32a3-8196-4799-8dc0-cf3beff9f1c8")
+		(property "Reference" "RV4"
+			(at 39.37 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "A100K"
+			(at 40.64 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Eurorack Common:Alpha Potentiometer_FP"
+			(at 41.275 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "217dfb41-bd90-4556-9180-5dcca436f887")
+		)
+		(pin "2"
+			(uuid "fe142efa-bfc5-4f43-a214-98eb0254520a")
+		)
+		(pin "3"
+			(uuid "29f9f825-9477-4409-9698-ff7b1c098919")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "RV4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack Common:Alpha_Potentiometer")
+		(at 40.64 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0c454ff-7757-41c5-b052-f50312e52623")
+		(property "Reference" "RV1"
+			(at 39.37 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "A100K"
+			(at 40.64 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Eurorack Common:Alpha Potentiometer_FP"
+			(at 41.275 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "856a04b6-cb98-44ee-b51a-f3e69c9a77e6")
+		)
+		(pin "2"
+			(uuid "1b73d876-6e27-4359-adef-e702dd7691e6")
+		)
+		(pin "3"
+			(uuid "d371f4eb-fa16-45af-901d-2de547957daa")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 86.36 162.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c01bbed3-15a1-44b5-968f-6cf1788d3ca1")
+		(property "Reference" "SW4"
+			(at 86.36 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Subminiture SPDT"
+			(at 88.0622 158.877 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Eurorack Common:Sub-Miniature SPDT_FP"
+			(at 86.36 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 86.36 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ceabf3d4-cb3e-4f20-a373-b20b6067f930")
+		)
+		(pin "2"
+			(uuid "f1da0037-6d8e-43ba-b1e6-f704ee10507c")
+		)
+		(pin "3"
+			(uuid "3e2591f0-68a3-48e9-b5bb-8a1073a91251")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 86.36 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2e5bae9-69d0-44e9-b5c7-ed3d18e3e9a1")
+		(property "Reference" "SW2"
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Subminiture SPDT"
+			(at 88.0622 68.707 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Eurorack Common:Sub-Miniature SPDT_FP"
+			(at 86.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 86.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cc2dab6-e630-496f-be9f-a0d841405f64")
+		)
+		(pin "2"
+			(uuid "96c5d1c4-059b-4037-8bf2-45f9b3ff42b1")
+		)
+		(pin "3"
+			(uuid "dccc9bec-a79d-4236-b59a-43496fd16054")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 146.05 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7c0215a-d9fd-448d-abc8-7dca42483edd")
+		(property "Reference" "#FLG01"
+			(at 146.05 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 146.05 174.9369 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 146.05 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d676cf7-9a98-47c9-a147-9385cb8987b1")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack Common:AudioJack2_SwitchT")
+		(at 40.64 156.21 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e45ddf37-226e-4ca6-9d9e-ae6b7b8ff0e9")
+		(property "Reference" "J7"
+			(at 35.56 154.3049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Thonkicon"
+			(at 35.56 156.8449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Eurorack Common:Thonkicon_FP"
+			(at 40.64 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "S"
+			(uuid "0f67afb2-f0b8-46ee-a8a6-39f2c23aecc6")
+		)
+		(pin "T"
+			(uuid "d346b612-528a-4ce7-babd-af0b76487dc3")
+		)
+		(pin "TN"
+			(uuid "1fedc0a7-0309-4eef-8410-887637c8b9f1")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack Common:Alpha_Potentiometer")
+		(at 40.64 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eee37d51-b397-4f7d-a134-7750a27b37b6")
+		(property "Reference" "RV3"
+			(at 39.37 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "A100K"
+			(at 40.64 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Eurorack Common:Alpha Potentiometer_FP"
+			(at 41.275 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c013d1f-dda2-4424-8c74-a3a018d0fd52")
+		)
+		(pin "2"
+			(uuid "4ba450c5-d3df-45e2-9763-de6f898c9f00")
+		)
+		(pin "3"
+			(uuid "0f703eac-756b-4499-a038-0cee57bd2265")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "RV3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 86.36 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1a69746-647f-4056-b2b9-79509acb386f")
+		(property "Reference" "SW3"
+			(at 86.36 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Subminiture SPDT"
+			(at 88.0622 113.157 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Eurorack Common:Sub-Miniature SPDT_FP"
+			(at 86.36 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 86.36 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81c978a4-43c6-4bb1-84b9-8fbe4d439db0")
+		)
+		(pin "2"
+			(uuid "6575e2b5-ae21-42c7-b884-b34b21ea7efd")
+		)
+		(pin "3"
+			(uuid "7459ff49-f443-4cb2-be61-6993cd1a9353")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eurorack Common:AudioJack2_SwitchT")
+		(at 40.64 22.86 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f56ee341-fb2d-4b15-9693-41dfb398af6b")
+		(property "Reference" "J1"
+			(at 35.56 20.9549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Thonkicon"
+			(at 35.56 23.4949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Eurorack Common:Thonkicon_FP"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "S"
+			(uuid "7c83cce1-7bcb-48b1-a27a-33fcf6492a00")
+		)
+		(pin "T"
+			(uuid "c1743e98-c54d-48e5-aa21-bfe28604be68")
+		)
+		(pin "TN"
+			(uuid "7ad67d04-e0bd-499c-b053-0e7a4c9446a7")
+		)
+		(instances
+			(project "front-panel"
+				(path "/a6e20c37-205f-477d-8fe7-334b9e1a3d82"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

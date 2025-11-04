@@ -11481,6 +11481,19 @@
 		(layer "User.1")
 		(uuid "dd9c9346-c3d3-45ca-8cac-2e3eb99a7888")
 	)
+	(gr_text "BOT"
+		(at 45.3 129.05 -0)
+		(layer "F.SilkS")
+		(uuid "59e23f69-4cde-4f55-bab4-0c555e92b29e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "BIAS D"
 		(locked yes)
 		(at 58.75 48.719048 90)
@@ -11490,6 +11503,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "TOP"
+		(at 45.3 22.35 -0)
+		(layer "F.SilkS")
+		(uuid "75fee2f9-7fec-492b-9b34-0863a4d61c8f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -11535,32 +11561,6 @@
 				(bold yes)
 			)
 			(justify left bottom)
-		)
-	)
-	(gr_text "BOT"
-		(at 26.6 128 0)
-		(layer "B.SilkS")
-		(uuid "59e23f69-4cde-4f55-bab4-0c555e92b29e")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "TOP"
-		(at 26.8 22.9 0)
-		(layer "B.SilkS")
-		(uuid "75fee2f9-7fec-492b-9b34-0863a4d61c8f")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom mirror)
 		)
 	)
 	(gr_text "TRIM D"
