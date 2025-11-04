@@ -3275,6 +3275,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 200.66 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ca531831-7fd4-4cd0-b13d-68ad3f2f628a")
 		)
@@ -3312,7 +3321,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "B100K"
 			(at 184.15 87.63 90)
 			(effects
 				(font
@@ -3340,6 +3349,15 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer (bournes type)"
+			(at 184.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 184.15 90.17 0)
 			(effects
 				(font
@@ -3414,6 +3432,15 @@
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, TSOT-23-14"
+			(at 101.6 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 101.6 78.74 0)
 			(effects
 				(font
@@ -3529,6 +3556,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 40.64 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad87e058-2834-4029-8949-d605e2e87fa4")
 		)
@@ -3600,6 +3636,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 99.06 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c05e4110-125f-4d29-9e6c-534b7c3cc689")
 		)
@@ -3664,6 +3709,15 @@
 			)
 		)
 		(property "Description" "Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, SOIC-16, drop in replacement for LM13700"
+			(at 204.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 204.47 54.61 0)
 			(effects
 				(font
@@ -3791,6 +3845,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 96.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9d24575c-49af-42a8-bffc-2f351baa8f7b")
 		)
@@ -3858,6 +3921,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 172.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 172.72 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4007,6 +4079,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 60.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5073dec1-61e9-49e5-94a8-98a42a5ee30b")
 		)
@@ -4107,6 +4188,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 193.04 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 193.04 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,6 +4345,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 232.41 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2d36a16c-390f-489f-8567-2af768dae797")
 		)
@@ -4396,6 +4495,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 128.27 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "91289a53-5d75-47b4-9af5-ad6688ff4b67")
 		)
@@ -4460,6 +4568,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 83.82 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 83.82 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4608,6 +4725,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 127 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27387012-6884-439c-89e7-2d8c7d1b2c37")
 		)
@@ -4679,6 +4805,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 40.64 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d6beae5-24f3-42c9-b0df-65cbe95ff09f")
 		)
@@ -4743,6 +4878,15 @@
 			)
 		)
 		(property "Description" "Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, SOIC-16, drop in replacement for LM13700"
+			(at 224.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 224.79 54.61 0)
 			(effects
 				(font
@@ -5151,6 +5295,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 111.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d87250f4-7d15-403b-a3a6-24340221420d")
 		)
@@ -5219,6 +5372,15 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer (bournes type)"
+			(at 172.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 172.72 59.69 0)
 			(effects
 				(font
@@ -5371,6 +5533,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 85.09 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7729cc6b-b7a6-40e7-b0eb-95bedbc4f151")
 		)
@@ -5442,6 +5613,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 83.82 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90839c94-0114-47ab-9116-bde890d78f52")
 		)
@@ -5506,6 +5686,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 57.15 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 57.15 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5654,6 +5843,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 200.66 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59804753-5295-4f81-89db-dc9afd076bf1")
 		)
@@ -5795,6 +5993,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 127 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e6509a02-bfbd-4890-8f41-d0ebacc8d8f9")
 		)
@@ -5859,6 +6066,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 100.33 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 100.33 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)

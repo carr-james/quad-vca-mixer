@@ -224,7 +224,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at -1.79 0.3 0)
+			(at 3.71 -0.2 0)
 			(layer "F.Fab")
 			(uuid "6c7e6cc7-7718-40e9-a310-249ea6b0565b")
 			(effects
@@ -246,7 +246,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -365,17 +365,6 @@
 			(layer "F.Fab")
 			(uuid "4ed2446b-f990-4d95-91d6-9cfaaddbe26d")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "b1cb442b-b9db-45bd-bbf5-2bad9365701e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
 			(size 1.6 1.6)
@@ -427,7 +416,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at -1.05 0 0)
+			(at 3.95 0 0)
 			(layer "F.Fab")
 			(uuid "6aa518a9-3c74-42ca-9e45-014e39f0baf4")
 			(effects
@@ -449,7 +438,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -568,17 +557,6 @@
 			(layer "F.Fab")
 			(uuid "912f59ce-e7a4-410b-a752-b251624a71f2")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "1c8b6ba0-6630-4963-989d-ea870385cb0a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1.6 1.6)
@@ -630,7 +608,7 @@
 			)
 		)
 		(property "Value" "20K"
-			(at -1.9 0 0)
+			(at 3.6 0 0)
 			(layer "F.Fab")
 			(uuid "81e1b256-3418-4e5f-9064-886053c7c976")
 			(effects
@@ -652,7 +630,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -771,17 +749,6 @@
 			(layer "F.Fab")
 			(uuid "2df6bba0-2161-4fdf-89b0-1d4b74ceb642")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "019f0330-426f-4682-b4f8-3c6765a217f6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1.6 1.6)
@@ -843,7 +810,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -855,7 +822,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1026,7 +993,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl074.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1038,7 +1005,7 @@
 				)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1370,7 +1337,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 9.11 0 0)
+			(at 3.61 0 0)
 			(layer "F.Fab")
 			(uuid "95e4e673-900c-4ff1-a4fa-7fe05d954454")
 			(effects
@@ -1511,17 +1478,6 @@
 			(layer "F.Fab")
 			(uuid "5db4a029-6ea6-4d81-9460-ea8518ea9cb8")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "f55b8ac2-281f-4465-818f-f5a711916e84")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
 			(size 1.6 1.6)
@@ -1573,7 +1529,7 @@
 			)
 		)
 		(property "Value" "470K"
-			(at 10.32 -0.244444 0)
+			(at 3.82 0.255556 0)
 			(layer "F.Fab")
 			(uuid "a5ba8c16-5a25-4e10-9fc8-1a408aae1050")
 			(effects
@@ -1595,7 +1551,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1714,17 +1670,6 @@
 			(layer "F.Fab")
 			(uuid "0381ccbf-8811-4891-9f07-b1343bd69683")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "22a1e6aa-b45f-4d2f-b086-cc25290cca2b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1.6 1.6)
@@ -1786,7 +1731,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl084.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1798,7 +1743,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Low-Power, Quad-Operational Amplifiers, TSOT-23-14"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2208,7 +2153,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2220,7 +2165,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2381,7 +2326,7 @@
 			)
 		)
 		(property "Value" "2K"
-			(at 3.81 2.37 90)
+			(at 3.62 0.1 90)
 			(layer "F.Fab")
 			(uuid "bd7c2c79-cee0-4922-8f31-43841f02df6f")
 			(effects
@@ -2403,7 +2348,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2522,17 +2467,6 @@
 			(layer "F.Fab")
 			(uuid "94e7df61-57c1-429f-b570-68e0ac6947aa")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 90)
-			(layer "F.Fab")
-			(uuid "47deae82-19b3-4a69-b23c-4d2b0d55ee39")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
 			(size 1.6 1.6)
@@ -2584,7 +2518,7 @@
 			)
 		)
 		(property "Value" "20K"
-			(at -2.2 0.2 0)
+			(at 3.8 0.2 0)
 			(layer "F.Fab")
 			(uuid "662e7143-c455-4911-aa81-ebd0ca4accdb")
 			(effects
@@ -2606,7 +2540,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2725,17 +2659,6 @@
 			(layer "F.Fab")
 			(uuid "2b944e5e-85dc-4f59-8881-1d7191dcc1fc")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "44ae8a7d-b709-41fd-b73c-6e4c6902eb64")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
 			(size 1.6 1.6)
@@ -2787,7 +2710,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 3.81 2.37 90)
+			(at 3.62 0.1 90)
 			(layer "F.Fab")
 			(uuid "1473e08e-f103-444f-929b-69935bcb55aa")
 			(effects
@@ -2809,7 +2732,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2928,17 +2851,6 @@
 			(layer "F.Fab")
 			(uuid "483d89bd-9b78-4573-9649-bf0ff9a7a60e")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 90)
-			(layer "F.Fab")
-			(uuid "134f64e1-0fa4-49cf-bbfe-858b33860a8f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
 			(size 1.6 1.6)
@@ -2990,7 +2902,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x09_Socket"
+		(property "Value" "01x09 Female Pin Header"
 			(at -1.212497 24.507118 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3322,7 +3234,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x15_Socket"
+		(property "Value" "01x13 Female Pin Header"
 			(at 0 33.25 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3708,7 +3620,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl072.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3720,7 +3632,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Operational Amplifiers, DIP-8"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3733,7 +3645,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
-		(path "/ca214f6b-3c2b-40c4-9eb0-ed41ffe10c2e")
+		(path "/9f95035d-8315-4cb3-90ea-dffa654acb48")
 		(sheetname "/")
 		(sheetfile "middle-board.kicad_sch")
 		(attr through_hole)
@@ -3988,7 +3900,7 @@
 			)
 		)
 		(property "Value" "2K"
-			(at -1.4 0 0)
+			(at 4.1 0 0)
 			(layer "F.Fab")
 			(uuid "40d70889-9126-4f14-8975-e5e269600c8e")
 			(effects
@@ -4010,7 +3922,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4128,17 +4040,6 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "685e7722-c521-4a07-a97b-303baf2b09e4")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "d36b6e8a-0d27-4644-bff1-7223a99ad0ff")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -4433,7 +4334,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4552,17 +4453,6 @@
 			(layer "F.Fab")
 			(uuid "bc194983-59ea-44a0-921a-9f1b61696a2d")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 90)
-			(layer "F.Fab")
-			(uuid "848a3452-b9b3-4fe2-a4d2-87f04d829a65")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
 			(size 1.6 1.6)
@@ -4614,7 +4504,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at -2.2 -0.233333 0)
+			(at 3.8 -0.233333 0)
 			(layer "F.Fab")
 			(uuid "c7c71d31-52fc-429a-a690-d91cb50977bd")
 			(effects
@@ -4636,7 +4526,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4755,17 +4645,6 @@
 			(layer "F.Fab")
 			(uuid "e363dc44-bd31-409a-9e5d-5782a226d95e")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "05e0104f-04d0-438a-9b1c-2cd9c750972b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
 			(size 1.6 1.6)
@@ -4817,7 +4696,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at -1.58 -0.25 0)
+			(at 4.42 -0.25 0)
 			(layer "F.Fab")
 			(uuid "bfc2f7c6-c0c1-44ab-8b1c-7f5b5b5338b6")
 			(effects
@@ -4839,7 +4718,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4958,17 +4837,6 @@
 			(layer "F.Fab")
 			(uuid "086915be-8651-49d5-89c4-dba49ddcb4f6")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "deeb5fc7-2ab2-4a67-98e0-ffffdd3a1dc2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1.6 1.6)
@@ -5020,7 +4888,7 @@
 			)
 		)
 		(property "Value" "150R"
-			(at 10.32 -0.288889 0)
+			(at 3.82 0.211111 0)
 			(layer "F.Fab")
 			(uuid "b198fe8b-826e-4831-8768-447e01ba392d")
 			(effects
@@ -5042,7 +4910,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5161,17 +5029,6 @@
 			(layer "F.Fab")
 			(uuid "7c470949-61ac-4970-af27-5a5e629ef0b9")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "82576740-24ff-490c-9e27-b9f2342be557")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1.6 1.6)
@@ -5223,7 +5080,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 9.52 0 0)
+			(at 4.02 0 0)
 			(layer "F.Fab")
 			(uuid "b44e864d-5c12-46b4-bc68-15f5159fb1e2")
 			(effects
@@ -5245,7 +5102,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5364,17 +5221,6 @@
 			(layer "F.Fab")
 			(uuid "4a09c068-bd58-4a93-9f58-21bf567dcebf")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "00fe9416-717f-42af-98e8-a91e77b6e38b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
 			(size 1.6 1.6)
@@ -5426,7 +5272,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at -1.19 -0.2 0)
+			(at 3.81 -0.2 0)
 			(layer "F.Fab")
 			(uuid "b2ad3c63-25cb-4eca-8775-ca78446e1648")
 			(effects
@@ -5567,17 +5413,6 @@
 			(layer "F.Fab")
 			(uuid "84ec8ec6-b45a-488a-8b2a-55a41b2b5584")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "28a04c0c-58c4-499d-bb13-8ef41e364c27")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1.6 1.6)
@@ -5629,7 +5464,7 @@
 			)
 		)
 		(property "Value" "150R"
-			(at 9.82 0.122222 0)
+			(at 3.82 0.122222 0)
 			(layer "F.Fab")
 			(uuid "8a96cefd-5cf4-4e7d-b67e-8ee7d5113f52")
 			(effects
@@ -5651,7 +5486,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5770,17 +5605,6 @@
 			(layer "F.Fab")
 			(uuid "df5e50b1-7b26-4473-9026-befe55e3890a")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "726c114d-484e-4df8-a21f-734c3b7b37c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1.6 1.6)
@@ -5832,7 +5656,7 @@
 			)
 		)
 		(property "Value" "20K"
-			(at 9.2 0 0)
+			(at 3.2 0 0)
 			(layer "F.Fab")
 			(uuid "2c246ccd-1405-428a-a07e-a2dcafd4e01f")
 			(effects
@@ -5854,7 +5678,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5973,17 +5797,6 @@
 			(layer "F.Fab")
 			(uuid "37a34928-837a-4181-af0f-0a4a32c325f2")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "351bb329-0b56-405d-8da4-f2c870c5a984")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
 			(size 1.6 1.6)
@@ -6045,7 +5858,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -6057,7 +5870,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -6218,7 +6031,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 9.52 -0.3 0)
+			(at 4.02 -0.3 0)
 			(layer "F.Fab")
 			(uuid "1cb54c94-be68-4d16-a0d6-5fe3474552a3")
 			(effects
@@ -6240,7 +6053,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6359,17 +6172,6 @@
 			(layer "F.Fab")
 			(uuid "e3fdce2f-ddb4-4421-a5a8-a82aa6086ae6")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "ead0b7dd-1469-4418-a2b8-0f34a471913e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
 			(size 1.6 1.6)
@@ -6421,7 +6223,7 @@
 			)
 		)
 		(property "Value" "470K"
-			(at 10.32 0.166667 0)
+			(at 3.82 0.166667 0)
 			(layer "F.Fab")
 			(uuid "aaaaa080-9853-41f3-80d6-b2b14f7f15b1")
 			(effects
@@ -6443,7 +6245,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6562,17 +6364,6 @@
 			(layer "F.Fab")
 			(uuid "5726fc68-42a2-4e35-9782-031d86d74cd4")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "03ef71c9-a42f-4e32-b8a7-2a2648c09066")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1.6 1.6)
@@ -6624,7 +6415,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 3.81 2.37 90)
+			(at 3.81 0 90)
 			(layer "F.Fab")
 			(uuid "f01586b3-1b96-414f-93d5-5cac09e14365")
 			(effects
@@ -6646,7 +6437,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6765,17 +6556,6 @@
 			(layer "F.Fab")
 			(uuid "eaaf965e-a097-48f3-8991-d43cc11eda3b")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 90)
-			(layer "F.Fab")
-			(uuid "1dfe634e-3172-4ea6-a525-f6656e5334e7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
 			(size 1.6 1.6)
@@ -6827,7 +6607,7 @@
 			)
 		)
 		(property "Value" "30K"
-			(at 9.02 0 0)
+			(at 3.52 0 0)
 			(layer "F.Fab")
 			(uuid "6f0af0c7-719e-4dd4-b94b-636b20d494e3")
 			(effects
@@ -6849,7 +6629,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6968,17 +6748,6 @@
 			(layer "F.Fab")
 			(uuid "7bcf6f26-3328-4773-89c7-5d40bb51e490")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "5a1fd921-dd83-4d77-bfba-85e25dff23d1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
 			(size 1.6 1.6)
@@ -7030,7 +6799,7 @@
 			)
 		)
 		(property "Value" "20K"
-			(at 3.81 -2.2 0)
+			(at 3.57 0.05 0)
 			(layer "F.Fab")
 			(uuid "3b309a0a-432d-484b-a44a-67c24b1e6830")
 			(effects
@@ -7052,7 +6821,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7171,17 +6940,6 @@
 			(layer "F.Fab")
 			(uuid "bdda4999-d284-4b68-abf0-a2bf37890fc5")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "d4d38ba1-01e1-4b69-864c-4768efaa1c55")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1.6 1.6)
@@ -7233,7 +6991,7 @@
 			)
 		)
 		(property "Value" "470R"
-			(at 3.81 2.37 90)
+			(at 3.81 0 90)
 			(layer "F.Fab")
 			(uuid "a4c7df89-01de-4920-917a-1edcf1344652")
 			(effects
@@ -7255,7 +7013,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7374,17 +7132,6 @@
 			(layer "F.Fab")
 			(uuid "8703f2f3-a7ee-4d81-8413-b146f46d5964")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 90)
-			(layer "F.Fab")
-			(uuid "5e255b87-3e23-4b41-b3f9-9b45ce24d3e3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
 			(size 1.6 1.6)
@@ -7436,7 +7183,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at -1.28 -0.2 0)
+			(at 3.72 -0.2 0)
 			(layer "F.Fab")
 			(uuid "f296375d-0e4b-46ab-a7ac-204e0a208233")
 			(effects
@@ -7577,17 +7324,6 @@
 			(layer "F.Fab")
 			(uuid "52553ad3-de37-4837-bc83-f6f2cd8269f7")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "a4904cf5-44b1-4924-96d0-8b53cccd6d1a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1.6 1.6)
@@ -7639,7 +7375,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 3.81 2.37 90)
+			(at 3.81 -0.1 90)
 			(layer "F.Fab")
 			(uuid "b4535be6-9926-4b3c-bc86-5caf79d2ac0c")
 			(effects
@@ -7661,7 +7397,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7780,17 +7516,6 @@
 			(layer "F.Fab")
 			(uuid "455c2a15-8417-4bda-8a2e-ea8f44440ad1")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 90)
-			(layer "F.Fab")
-			(uuid "b5e48146-e69c-4c75-b843-8bd547ea4e20")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
 			(size 1.6 1.6)
@@ -7842,7 +7567,7 @@
 			)
 		)
 		(property "Value" "30K"
-			(at -1.4 -0.1 0)
+			(at 3.6 -0.1 0)
 			(layer "F.Fab")
 			(uuid "b2f4821b-e61f-44e7-b7c3-9ff214a78cc5")
 			(effects
@@ -7864,7 +7589,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7982,17 +7707,6 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "d77b4719-8571-4282-92c7-9ba09519d9ac")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "c40dadcf-232e-4944-b197-08c37fbe1ed2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -8265,7 +7979,7 @@
 			)
 		)
 		(property "Value" "2K"
-			(at 9.02 -0.1 0)
+			(at 4.02 -0.1 0)
 			(layer "F.Fab")
 			(uuid "1009b78e-af07-451f-b951-64860e3c6d16")
 			(effects
@@ -8287,7 +8001,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8406,17 +8120,6 @@
 			(layer "F.Fab")
 			(uuid "512e6121-3eae-4611-a702-60fef1b7c3b4")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "b3356f74-4806-4c82-af6f-d15f27ff8e84")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
 			(size 1.6 1.6)
@@ -8478,7 +8181,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8490,7 +8193,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8661,7 +8364,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ne5517-d.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8673,7 +8376,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, SOIC-16, drop in replacement for LM13700"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9088,7 +8791,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x12_Pin"
+		(property "Value" "01x12 Female Pin Header"
 			(at 0 30.71 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -9453,7 +9156,7 @@
 			)
 		)
 		(property "Value" "2M"
-			(at -1.7 0.311111 0)
+			(at 3.8 -0.188889 0)
 			(layer "F.Fab")
 			(uuid "8ec2b999-43ce-4fab-a4a2-0472503ddcd8")
 			(effects
@@ -9475,7 +9178,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9594,17 +9297,6 @@
 			(layer "F.Fab")
 			(uuid "da653192-4c8e-4b99-b7cf-3479903b72fa")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "4b01607d-2d44-4e10-afb6-fbb98e3c5eee")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
 			(size 1.6 1.6)
@@ -9656,7 +9348,7 @@
 			)
 		)
 		(property "Value" "120K"
-			(at 3.3 -2.2 0)
+			(at 3.8 -0.2 0)
 			(layer "F.Fab")
 			(uuid "38024e03-1f0e-4388-9bdd-9f929831db15")
 			(effects
@@ -9678,7 +9370,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9797,17 +9489,6 @@
 			(layer "F.Fab")
 			(uuid "d565c6bb-c224-41d3-a26b-454f7483b35f")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "1ede0d1f-51b9-40a9-993f-ea6570c668f8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
 			(size 1.6 1.6)
@@ -9859,7 +9540,7 @@
 			)
 		)
 		(property "Value" "120K"
-			(at -2.2 -0.1 0)
+			(at 3.8 -0.1 0)
 			(layer "F.Fab")
 			(uuid "8fe19e20-99db-4b96-86da-bf2615b6094b")
 			(effects
@@ -9881,7 +9562,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10000,17 +9681,6 @@
 			(layer "F.Fab")
 			(uuid "6521e6fa-fca2-4005-9701-f998ae6dd3dc")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "61f205a1-f36e-4a7b-83c5-37390386f364")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
 			(size 1.6 1.6)
@@ -10062,7 +9732,7 @@
 			)
 		)
 		(property "Value" "2K"
-			(at 9.02 0 0)
+			(at 3.52 0 0)
 			(layer "F.Fab")
 			(uuid "59f77c37-43ff-44f3-8f0d-49ec2f8dad84")
 			(effects
@@ -10084,7 +9754,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10202,17 +9872,6 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "a0010073-89c2-44fc-a45d-1c461b6fb01e")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "7c378d67-6730-467e-b001-c0a856136a93")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
@@ -10495,7 +10154,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10507,7 +10166,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10668,7 +10327,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at -1.4 0.1 0)
+			(at 3.6 0.1 0)
 			(layer "F.Fab")
 			(uuid "aea79625-c140-4b7d-88b0-12a5b85c7df4")
 			(effects
@@ -10690,7 +10349,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10809,17 +10468,6 @@
 			(layer "F.Fab")
 			(uuid "78c0a802-81b9-455a-a9e4-9447217a50d7")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "2f47d044-a0ce-4a03-a121-dfc084265045")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1.6 1.6)
@@ -10871,7 +10519,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 9.7 -0.125 0)
+			(at 3.7 -0.125 0)
 			(layer "F.Fab")
 			(uuid "ce74616f-640e-4b5d-b2e8-d4361453fcf3")
 			(effects
@@ -10893,7 +10541,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11012,17 +10660,6 @@
 			(layer "F.Fab")
 			(uuid "8f67f07c-1f24-44d1-adef-03cee6b23169")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "c9261831-e4cc-4289-a970-29324a85dd9a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
 			(size 1.6 1.6)
@@ -11074,7 +10711,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at -1.4 0.1 0)
+			(at 3.6 0.1 0)
 			(layer "F.Fab")
 			(uuid "8f880189-92ae-4eb5-8c18-2bfa494d240c")
 			(effects
@@ -11096,7 +10733,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11215,17 +10852,6 @@
 			(layer "F.Fab")
 			(uuid "960d6a52-609d-4298-b280-400e0df9870e")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "5473012b-0bec-4fe4-8112-38b7b3b21a95")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1.6 1.6)
@@ -11277,7 +10903,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at -1.1 0 0)
+			(at 3.9 0 0)
 			(layer "F.Fab")
 			(uuid "b1e51c33-0e04-43f1-b8a4-151d41d786ca")
 			(effects
@@ -11299,7 +10925,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11418,17 +11044,6 @@
 			(layer "F.Fab")
 			(uuid "158e72c9-4dfe-4b9d-a61e-2d05d5cb2246")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "66854bd0-c672-431b-b9a2-dfddc9d66bac")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1.6 1.6)
@@ -11480,7 +11095,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 3.81 2.37 90)
+			(at 3.81 0 90)
 			(layer "F.Fab")
 			(uuid "a1406990-e029-4c79-aa45-abdba1b4497d")
 			(effects
@@ -11502,7 +11117,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11621,17 +11236,6 @@
 			(layer "F.Fab")
 			(uuid "aac3afa1-dc18-4abc-b05b-e36c047c22c5")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 90)
-			(layer "F.Fab")
-			(uuid "021587ba-8051-4bd3-b9c1-321ddd8414f0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
 			(size 1.6 1.6)
@@ -11683,7 +11287,7 @@
 			)
 		)
 		(property "Value" "2K"
-			(at -1.4 0 0)
+			(at 3.6 0 0)
 			(layer "F.Fab")
 			(uuid "8e54d5dc-1d94-481f-bbfc-a773c4bd099f")
 			(effects
@@ -11705,7 +11309,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11823,17 +11427,6 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "f249d84d-cee6-4b13-bbdf-ffcd732e938b")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "61e02046-e9fb-4695-ae85-c622574b1a89")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -12106,7 +11699,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x09_Socket"
+		(property "Value" "01x09 Female Pin Header"
 			(at 0 23.09 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12438,7 +12031,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 9.7 0 0)
+			(at 3.7 0 0)
 			(layer "F.Fab")
 			(uuid "36f911ec-fdea-4fd9-bced-de52c3e891db")
 			(effects
@@ -12460,7 +12053,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12579,17 +12172,6 @@
 			(layer "F.Fab")
 			(uuid "4a666b8c-0c63-4a12-92b4-7abb2fedd35a")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "2da2f0c5-f14c-459a-9a8e-03d06eea7dbc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
 			(size 1.6 1.6)
@@ -12651,7 +12233,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -12663,7 +12245,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -12824,7 +12406,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at -1.58 -0.125 0)
+			(at 4.42 -0.125 0)
 			(layer "F.Fab")
 			(uuid "4c19504a-d314-41f9-96da-d8af87ff216b")
 			(effects
@@ -12846,7 +12428,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12965,17 +12547,6 @@
 			(layer "F.Fab")
 			(uuid "040e25ab-fa85-4373-a8bb-1a6543d64e8b")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "9989b489-4034-49bd-a886-89544634e77e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1.6 1.6)
@@ -13037,7 +12608,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -13049,7 +12620,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -13210,7 +12781,7 @@
 			)
 		)
 		(property "Value" "2M"
-			(at -1.7 0.222222 0)
+			(at 3.8 0.222222 0)
 			(layer "F.Fab")
 			(uuid "4e5c6122-a54f-49fd-8d74-0e210604aa2f")
 			(effects
@@ -13232,7 +12803,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13351,17 +12922,6 @@
 			(layer "F.Fab")
 			(uuid "42829bbc-b087-477a-a2ab-6031dbe292a6")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "1dcf100f-d6fa-4b80-b295-f07d20ab7d6c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
 			(size 1.6 1.6)
@@ -13423,7 +12983,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13435,7 +12995,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13596,7 +13156,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at -1.49 -0.1 0)
+			(at 4.01 -0.1 0)
 			(layer "F.Fab")
 			(uuid "ddda56ae-52fc-4086-b6c7-b64968ff634a")
 			(effects
@@ -13737,17 +13297,6 @@
 			(layer "F.Fab")
 			(uuid "01c23ab4-7004-4ad0-8ee5-fac42e6bd4f8")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "65042c0d-070d-4049-b2cf-d0d8643c970d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1.6 1.6)
@@ -13799,7 +13348,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at -2.2 -0.144444 0)
+			(at 3.8 -0.144444 0)
 			(layer "F.Fab")
 			(uuid "b599f06d-3ed3-4ac4-8d24-0a8ff3b9ab9f")
 			(effects
@@ -13821,7 +13370,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13940,17 +13489,6 @@
 			(layer "F.Fab")
 			(uuid "0adf3ef1-9f1f-4b5b-97cd-15063796c5cb")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.8 0 0)
-			(layer "F.Fab")
-			(uuid "d5acb161-9d9b-42fd-a359-d2e90dfaf361")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
 			(size 1.6 1.6)
@@ -14024,7 +13562,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14143,17 +13681,6 @@
 			(layer "F.Fab")
 			(uuid "2796f9ca-dd1a-408a-8318-460e1370068e")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 90)
-			(layer "F.Fab")
-			(uuid "4f0343e1-a2a8-429b-b42a-46082ce04d34")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
 			(size 1.6 1.6)
@@ -14206,7 +13733,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Conn_01x10_Pin"
+		(property "Value" "01x10 Male Pin Header"
 			(at 0 -25.24 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -14553,7 +14080,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Conn_01x10_Socket"
+		(property "Value" "01x10 Male Pin Header"
 			(at 0 -25.24 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -14900,8 +14427,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100K"
-			(at -2.516586 -2.368261 90)
+		(property "Value" "B100K"
+			(at -2.08 1.9875 90)
 			(layer "B.Fab")
 			(uuid "2af1dc27-13ac-4c2e-92da-05739f44e2ce")
 			(effects
@@ -15079,8 +14606,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "2K"
-			(at -2.516586 -2.368261 90)
+		(property "Value" "B2K"
+			(at -2.516586 1.9875 90)
 			(layer "B.Fab")
 			(uuid "67c0dce1-2ec7-4a17-8a43-c08f07f58667")
 			(effects
@@ -15258,8 +14785,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100K"
-			(at -2.516586 -2.368261 90)
+		(property "Value" "B100K"
+			(at -2.78 1.9875 90)
 			(layer "B.Fab")
 			(uuid "d11ca948-e170-4473-a916-efcf01ddd822")
 			(effects
@@ -15437,8 +14964,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "2K"
-			(at -2.516586 -2.368261 90)
+		(property "Value" "B2K"
+			(at -2.68 1.9875 90)
 			(layer "B.Fab")
 			(uuid "5faf9e18-dc92-4566-b273-78effc899bda")
 			(effects

@@ -6,16 +6,23 @@ on:
       - dev
 
 permissions:
-  contents: read
+  contents: write
   actions: write
 
 jobs:
   dev-build:
-    uses: carr-james/eurorack-workflows/.github/workflows/kicad-dev-build.yml@main
+    uses: carr-james/eurorack-workflows/.github/workflows/kicad-build.yml@main
     with:
       project-name: 'Quad VCA Mixer'
+      build-type: 'dev'
       boards: |
         [
+           {
+            "name": "front-panel",
+            "kibot_config": ".kibot/jlcpcb.kibot.yaml",
+            "pcb_path": "hardware/front-panel/front-panel.kicad_pcb",
+            "sch_path": "hardware/front-panel/front-panel.kicad_sch"
+          },
           {
             "name": "control-board",
             "kibot_config": ".kibot/jlcpcb.kibot.yaml",
@@ -36,3 +43,4 @@ jobs:
           }
         ]
       skip-checks: 'erc,drc'
+      include-assembly-files: false

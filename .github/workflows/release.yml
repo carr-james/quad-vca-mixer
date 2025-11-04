@@ -11,9 +11,10 @@ permissions:
 
 jobs:
   release:
-    uses: carr-james/eurorack-workflows/.github/workflows/kicad-release.yml@main
+    uses: carr-james/eurorack-workflows/.github/workflows/kicad-build.yml@main
     with:
       project-name: 'Quad VCA Mixer'
+      build-type: 'release'
       boards: |
         [
           {
@@ -36,3 +37,4 @@ jobs:
           }
         ]
       skip-checks: 'erc,drc'
+      include-assembly-files: true
