@@ -1,0 +1,25 @@
+= Quad VCA Mixer
+
+A versatile 4-channel VCA mixer module for Eurorack format synthesizers.
+
+== Overview
+
+The Quad VCA Mixer combines four voltage-controlled amplifiers with a mixer in a compact Eurorack module. Each channel features independent CV control and manual level adjustment.
+
+== Features
+
+* 4 independent VCA channels
+* Per-channel CV control
+* Mix output
+* Compact 3-board design
+
+== Getting Started
+
+See the xref:getting-started.adoc[Getting Started Guide] for assembly and calibration instructions.
+
+== Documentation
+
+* xref:schematics.adoc[Schematics] - Circuit diagrams for all three boards
+* xref:interactive-bom.adoc[Interactive BOM] - Interactive bill of materials for assembly
+* xref:build-guide.adoc[Build Guide] - Step-by-step assembly instructions
+* xref:downloads.adoc[Downloads] - Gerber files, PDFs, and 3D models

@@ -76,7 +76,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
-		(grid_origin 25.42 25.4)
+		(grid_origin 53.8 104.729302)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -5544,7 +5544,8 @@
 	)
 	(gr_poly
 		(pts
-			(xy 64.7 92.929302) (xy 53.8 92.929302) (xy 53.8 104.729302) (xy 60 104.729302) (xy 64.7 100.029302)
+			(xy 64.7 92.929302) (xy 53.8 92.929302) (xy 53.8 104.729302) (xy 55.4 104.729302) (xy 56.9 104.729302)
+			(xy 60 104.729302) (xy 64.7 100.029302)
 		)
 		(stroke
 			(width 0)

@@ -1,0 +1,167 @@
+name: quad-vca-mixer
+title: Quad VCA Mixer
+version: dev
+prerelease: true
+display_version: Development
+nav:
+  - modules/ROOT/nav.adoc
+
+ext:
+  collector:
+    # Generate documentation artifacts for control-board
+    - run:
+        command: >
+          kibot
+          -c .kibot/jlcpcb-2layer-enhanced.kibot.yaml
+          -b hardware/control-board/control-board.kicad_pcb
+          -e hardware/control-board/control-board.kicad_sch
+          -d hardware/control-board/kibot-output
+          schematic_pdf schematic_svg
+          pcb_top_pdf board_dimensions
+          render_top render_bottom render_perspective
+          bom_html ibom
+          step
+      scan:
+        # Schematics SVG - to images (for inline display)
+        - dir: hardware/control-board/kibot-output/docs/schematics
+          files: '**/*.svg'
+          into: modules/ROOT/images/generated/control-board/schematics
+        # Schematics PDF - to attachments (for download)
+        - dir: hardware/control-board/kibot-output/docs/schematics
+          files: '**/*.pdf'
+          into: modules/ROOT/attachments/generated/control-board/schematics
+        # PCB SVG - to images (for inline display)
+        - dir: hardware/control-board/kibot-output/docs/pcb
+          files: '**/*.svg'
+          into: modules/ROOT/images/generated/control-board/pcb
+        # PCB PDF - to attachments (for download)
+        - dir: hardware/control-board/kibot-output/docs/pcb
+          files: '**/*.pdf'
+          into: modules/ROOT/attachments/generated/control-board/pcb
+        # 3D renders - to images (for inline display)
+        - dir: hardware/control-board/kibot-output/docs/renders
+          files: '**/*.{png,jpg}'
+          into: modules/ROOT/images/generated/control-board/renders
+        # Interactive BOM - to attachments (downloadable HTML)
+        - dir: hardware/control-board/kibot-output/ibom
+          files: '**/*.html'
+          into: modules/ROOT/attachments/generated/control-board/ibom
+        # STEP files - to attachments (downloadable)
+        - dir: hardware/control-board/kibot-output/mechanical
+          files: '**/*.step'
+          into: modules/ROOT/attachments/generated/control-board/mechanical
+
+    # Generate documentation artifacts for middle-board
+    - run:
+        command: >
+          kibot
+          -c .kibot/jlcpcb-2layer-enhanced.kibot.yaml
+          -b hardware/middle-board/middle-board.kicad_pcb
+          -e hardware/middle-board/middle-board.kicad_sch
+          -d hardware/middle-board/kibot-output
+          schematic_pdf schematic_svg
+          pcb_top_pdf board_dimensions
+          render_top render_bottom render_perspective
+          bom_html ibom
+          step
+      scan:
+        # Schematics SVG - to images (for inline display)
+        - dir: hardware/middle-board/kibot-output/docs/schematics
+          files: '**/*.svg'
+          into: modules/ROOT/images/generated/middle-board/schematics
+        # Schematics PDF - to attachments (for download)
+        - dir: hardware/middle-board/kibot-output/docs/schematics
+          files: '**/*.pdf'
+          into: modules/ROOT/attachments/generated/middle-board/schematics
+        # PCB SVG - to images (for inline display)
+        - dir: hardware/middle-board/kibot-output/docs/pcb
+          files: '**/*.svg'
+          into: modules/ROOT/images/generated/middle-board/pcb
+        # PCB PDF - to attachments (for download)
+        - dir: hardware/middle-board/kibot-output/docs/pcb
+          files: '**/*.pdf'
+          into: modules/ROOT/attachments/generated/middle-board/pcb
+        # 3D renders - to images (for inline display)
+        - dir: hardware/middle-board/kibot-output/docs/renders
+          files: '**/*.{png,jpg}'
+          into: modules/ROOT/images/generated/middle-board/renders
+        # Interactive BOM - to attachments (downloadable HTML)
+        - dir: hardware/middle-board/kibot-output/ibom
+          files: '**/*.html'
+          into: modules/ROOT/attachments/generated/middle-board/ibom
+        # STEP files - to attachments (downloadable)
+        - dir: hardware/middle-board/kibot-output/mechanical
+          files: '**/*.step'
+          into: modules/ROOT/attachments/generated/middle-board/mechanical
+
+    # Generate documentation artifacts for bottom-board
+    - run:
+        command: >
+          kibot
+          -c .kibot/jlcpcb-2layer-enhanced.kibot.yaml
+          -b hardware/bottom-board/bottom-board.kicad_pcb
+          -e hardware/bottom-board/bottom-board.kicad_sch
+          -d hardware/bottom-board/kibot-output
+          schematic_pdf schematic_svg
+          pcb_top_pdf board_dimensions
+          render_top render_bottom render_perspective
+          bom_html ibom
+          step
+      scan:
+        # Schematics SVG - to images (for inline display)
+        - dir: hardware/bottom-board/kibot-output/docs/schematics
+          files: '**/*.svg'
+          into: modules/ROOT/images/generated/bottom-board/schematics
+        # Schematics PDF - to attachments (for download)
+        - dir: hardware/bottom-board/kibot-output/docs/schematics
+          files: '**/*.pdf'
+          into: modules/ROOT/attachments/generated/bottom-board/schematics
+        # PCB SVG - to images (for inline display)
+        - dir: hardware/bottom-board/kibot-output/docs/pcb
+          files: '**/*.svg'
+          into: modules/ROOT/images/generated/bottom-board/pcb
+        # PCB PDF - to attachments (for download)
+        - dir: hardware/bottom-board/kibot-output/docs/pcb
+          files: '**/*.pdf'
+          into: modules/ROOT/attachments/generated/bottom-board/pcb
+        # 3D renders - to images (for inline display)
+        - dir: hardware/bottom-board/kibot-output/docs/renders
+          files: '**/*.{png,jpg}'
+          into: modules/ROOT/images/generated/bottom-board/renders
+        # Interactive BOM - to attachments (downloadable HTML)
+        - dir: hardware/bottom-board/kibot-output/ibom
+          files: '**/*.html'
+          into: modules/ROOT/attachments/generated/bottom-board/ibom
+        # STEP files - to attachments (downloadable)
+        - dir: hardware/bottom-board/kibot-output/mechanical
+          files: '**/*.step'
+          into: modules/ROOT/attachments/generated/bottom-board/mechanical
+
+    # Generate documentation artifacts for front-panel (PCB and 3D only)
+    - run:
+        command: >
+          kibot
+          -c .kibot/jlcpcb-2layer-enhanced.kibot.yaml
+          -b hardware/front-panel/front-panel.kicad_pcb
+          -e hardware/front-panel/front-panel.kicad_sch
+          -d hardware/front-panel/kibot-output
+          pcb_top_pdf board_dimensions
+          render_top render_bottom render_perspective
+          step
+      scan:
+        # PCB SVG - to images (for inline display)
+        - dir: hardware/front-panel/kibot-output/docs/pcb
+          files: '**/*.svg'
+          into: modules/ROOT/images/generated/front-panel/pcb
+        # PCB PDF - to attachments (for download)
+        - dir: hardware/front-panel/kibot-output/docs/pcb
+          files: '**/*.pdf'
+          into: modules/ROOT/attachments/generated/front-panel/pcb
+        # 3D renders - to images (for inline display)
+        - dir: hardware/front-panel/kibot-output/docs/renders
+          files: '**/*.{png,jpg}'
+          into: modules/ROOT/images/generated/front-panel/renders
+        # STEP files - to attachments (downloadable)
+        - dir: hardware/front-panel/kibot-output/mechanical
+          files: '**/*.step'
+          into: modules/ROOT/attachments/generated/front-panel/mechanical
