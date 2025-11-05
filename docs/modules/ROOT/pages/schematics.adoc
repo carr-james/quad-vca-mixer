@@ -1,0 +1,52 @@
+= Schematics
+
+This page shows the circuit schematics for all three boards. The schematics are automatically generated from the KiCad project files during the documentation build process.
+
+== Control Board Schematic
+
+The control board handles all front panel controls and CV inputs.
+
+_Content to be added._
+
+=== Schematic Diagram
+
+The schematic below is automatically generated from the KiCad project:
+
+[.expandable]
+image::image$generated/control-board/schematics/control-board_schematic.svg[Control Board Schematic,width=100%]
+
+TIP: Click the image to view at full size. You can also xref:attachment$generated/control-board/schematics/control-board_schematic.pdf[download the PDF version].
+
+== Middle Board Schematic
+
+The middle board contains the VCA circuitry.
+
+_Content to be added._
+
+=== Schematic Diagram
+
+[.expandable]
+image::image$generated/middle-board/schematics/middle-board_schematic.svg[Middle Board Schematic,width=100%]
+
+TIP: Click the image to view at full size. You can also xref:attachment$generated/middle-board/schematics/middle-board_schematic.pdf[download the PDF version].
+
+== Bottom Board Schematic
+
+The bottom board contains power regulation and additional circuitry.
+
+_Content to be added._
+
+=== Schematic Diagram
+
+[.expandable]
+image::image$generated/bottom-board/schematics/bottom-board_schematic.svg[Bottom Board Schematic,width=100%]
+
+TIP: Click the image to view at full size. You can also xref:attachment$generated/bottom-board/schematics/bottom-board_schematic.pdf[download the PDF version].
+
+== Circuit Description
+
+_Content to be added._
+
+== Design Notes
+
+_Content to be added._

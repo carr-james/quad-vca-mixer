@@ -1,0 +1,4 @@
+= Middle Board Interactive BOM
+:page-layout: ibom
+
+ibom::_attachments/generated/middle-board/ibom/middle-board-ibom.html[]

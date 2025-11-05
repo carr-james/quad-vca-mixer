@@ -1,0 +1,4 @@
+= Bottom Board Interactive BOM
+:page-layout: ibom
+
+ibom::_attachments/generated/bottom-board/ibom/bottom-board-ibom.html[]
