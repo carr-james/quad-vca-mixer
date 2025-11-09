@@ -6,6 +6,11 @@ display_version: Development
 nav:
   - modules/ROOT/nav.adoc
 
+asciidoc:
+  attributes:
+    module-status: untested
+    module-status-note: 'PCBs have been designed but not yet assembled or tested. Use at your own risk.'
+
 ext:
   collector-cache:
     # Generate documentation artifacts for control-board (2-layer)

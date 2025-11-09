@@ -1,5 +1,14 @@
 = Quad VCA Mixer
 
+ifdef::show-wip-warnings[]
+[CAUTION]
+====
+**Development Status: {module-status}**
+
+{module-status-note}
+====
+endif::[]
+
 A versatile 4-channel VCA mixer module for Eurorack format synthesizers.
 
 == Overview
