@@ -67,7 +67,7 @@ outputs:
       no_redraw_on_drag: false
       board_rotation: 0
       checkboxes: 'Sourced,Placed'
-      extra_fields: "Value,Footprint,Description,Notes,Datasheet"
+      extra_fields: "Description,Notes,Datasheet"
       extra_data_file: "%F.kicad_pcb"
       bom_view: 'left-right'
       layer_view: 'FB'

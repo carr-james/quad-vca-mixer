@@ -19,10 +19,11 @@ ext:
         sources:
           - hardware/control-board/control-board.kicad_pcb
           - hardware/control-board/control-board.kicad_sch
+          - .kibot/jlcpcb-2layer.kibot.yaml
         cache-dir: hardware/control-board/kibot-output
         command: >
           kibot
-          -c .kibot/jlcpcb.kibot.yaml
+          -c .kibot/jlcpcb-2layer.kibot.yaml
           -b hardware/control-board/control-board.kicad_pcb
           -e hardware/control-board/control-board.kicad_sch
           -d hardware/control-board/kibot-output
@@ -67,6 +68,7 @@ ext:
         sources:
           - hardware/middle-board/middle-board.kicad_pcb
           - hardware/middle-board/middle-board.kicad_sch
+          - .kibot/jlcpcb-4layer.kibot.yaml
         cache-dir: hardware/middle-board/kibot-output
         command: >
           kibot
@@ -115,10 +117,11 @@ ext:
         sources:
           - hardware/bottom-board/bottom-board.kicad_pcb
           - hardware/bottom-board/bottom-board.kicad_sch
+          - .kibot/jlcpcb-4layer.kibot.yaml
         cache-dir: hardware/bottom-board/kibot-output
         command: >
           kibot
-          -c .kibot/jlcpcb.kibot.yaml
+          -c .kibot/jlcpcb-4layer.kibot.yaml
           -b hardware/bottom-board/bottom-board.kicad_pcb
           -e hardware/bottom-board/bottom-board.kicad_sch
           -d hardware/bottom-board/kibot-output
@@ -163,10 +166,11 @@ ext:
         sources:
           - hardware/front-panel/front-panel.kicad_pcb
           - hardware/front-panel/front-panel.kicad_sch
+          - .kibot/jlcpcb-2layer.kibot.yaml
         cache-dir: hardware/front-panel/kibot-output
         command: >
           kibot
-          -c .kibot/jlcpcb.kibot.yaml
+          -c .kibot/jlcpcb-2layer.kibot.yaml
           -b hardware/front-panel/front-panel.kicad_pcb
           -e hardware/front-panel/front-panel.kicad_sch
           -d hardware/front-panel/kibot-output

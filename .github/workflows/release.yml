@@ -19,8 +19,14 @@ jobs:
       boards: |
         [
           {
+            "name": "front-panel",
+            "kibot_config": ".kibot/jlcpcb-2layer.kibot.yaml",
+            "pcb_path": "hardware/front-panel/front-panel.kicad_pcb",
+            "sch_path": "hardware/front-panel/front-panel.kicad_sch"
+          },
+          {
             "name": "control-board",
-            "kibot_config": ".kibot/jlcpcb.kibot.yaml",
+            "kibot_config": ".kibot/jlcpcb-2layer.kibot.yaml",
             "pcb_path": "hardware/control-board/control-board.kicad_pcb",
             "sch_path": "hardware/control-board/control-board.kicad_sch"
           },
@@ -32,7 +38,7 @@ jobs:
           },
           {
             "name": "bottom-board",
-            "kibot_config": ".kibot/jlcpcb.kibot.yaml",
+            "kibot_config": ".kibot/jlcpcb-4layer.kibot.yaml",
             "pcb_path": "hardware/bottom-board/bottom-board.kicad_pcb",
             "sch_path": "hardware/bottom-board/bottom-board.kicad_sch"
           }
