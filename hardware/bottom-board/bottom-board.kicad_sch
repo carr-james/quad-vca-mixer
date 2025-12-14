@@ -5454,7 +5454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Eurorack Common:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+		(property "Footprint" "Eurorack Common:CP_Radial_D5.0mm_H11.0mm_P2.00mm"
 			(at 31.4452 144.78 0)
 			(effects
 				(font
@@ -6066,7 +6066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Eurorack Common:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+		(property "Footprint" "Eurorack Common:CP_Radial_D5.0mm_H11.0mm_P2.00mm"
 			(at 31.4452 134.62 0)
 			(effects
 				(font

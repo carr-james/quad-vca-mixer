@@ -5331,7 +5331,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 185.42) (xy 88.9 189.23)
+			(xy 88.9 186.69) (xy 88.9 189.23)
 		)
 		(stroke
 			(width 0)
@@ -5891,7 +5891,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 168.91) (xy 88.9 170.18)
+			(xy 88.9 168.91) (xy 88.9 171.45)
 		)
 		(stroke
 			(width 0)
@@ -9356,8 +9356,7 @@
 	)
 	(symbol
 		(lib_id "Eurorack Common:TL072IP")
-		(at 91.44 177.8 0)
-		(mirror x)
+		(at 91.44 179.07 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9365,7 +9364,7 @@
 		(dnp no)
 		(uuid "9f95035d-8315-4cb3-90ea-dffa654acb48")
 		(property "Reference" "U3"
-			(at 91.44 182.88 0)
+			(at 91.948 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9373,7 +9372,7 @@
 			)
 		)
 		(property "Value" "TL072"
-			(at 91.44 185.42 0)
+			(at 92.71 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9381,7 +9380,7 @@
 			)
 		)
 		(property "Footprint" "Eurorack Common:DIP-8_W7.62mm"
-			(at 91.44 177.8 0)
+			(at 91.44 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9390,7 +9389,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl072.pdf"
-			(at 91.44 177.8 0)
+			(at 91.44 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9399,7 +9398,7 @@
 			)
 		)
 		(property "Description" "Dual Operational Amplifiers, DIP-8"
-			(at 91.44 177.8 0)
+			(at 91.44 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9782,16 +9781,14 @@
 	(symbol
 		(lib_id "Eurorack Common:TL074CN")
 		(at 72.39 179.07 0)
-		(mirror x)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c439597d-6a44-45df-b899-523e759e8877")
 		(property "Reference" "U2"
-			(at 68.58 177.7999 0)
+			(at 74.422 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9800,7 +9797,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 68.58 180.3399 0)
+			(at 75.946 180.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9809,7 +9806,7 @@
 			)
 		)
 		(property "Footprint" "Eurorack Common:DIP-14_W7.62mm"
-			(at 71.12 181.61 0)
+			(at 71.12 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9818,7 +9815,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl074.pdf"
-			(at 73.66 184.15 0)
+			(at 73.66 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
