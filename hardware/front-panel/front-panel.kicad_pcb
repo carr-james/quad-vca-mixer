@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -75,7 +75,20 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(tenting front back)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(capping no)
+		(filling no)
 		(grid_origin 56.875911 131.211708)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
@@ -85,15 +98,12 @@
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
-			(dashed_line_dash_ratio 12.000000)
-			(dashed_line_gap_ratio 3.000000)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
 			(svgprecision 4)
 			(plotframeref no)
 			(mode 1)
 			(useauxorigin no)
-			(hpglpennumber 1)
-			(hpglpenspeed 20)
-			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
 			(pdf_metadata yes)
@@ -117,13 +127,6 @@
 			(outputdirectory "")
 		)
 	)
-	(net 0 "")
-	(net 1 "/DUMMY_NET_A")
-	(net 2 "/DUMMY_NET_B")
-	(net 3 "Net-(JP1-B)")
-	(net 4 "Net-(JP2-B)")
-	(net 5 "unconnected-(JP3-B-Pad2)")
-	(net 6 "unconnected-(JP4-B-Pad2)")
 	(footprint "kibuzzard-690A2811"
 		(layer "F.Cu")
 		(uuid "0dcf951f-86ba-4da8-8707-6f54014a12f5")
@@ -179,6 +182,7 @@
 			)
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
 				(xy -1.243151 1.65) (xy -0.433973 -1.65) (xy 0.424932 -1.65) (xy 1.243151 1.65) (xy 0.551507 1.65)
@@ -254,6 +258,7 @@
 		)
 		(zone_connect 1)
 		(attr exclude_from_pos_files allow_soldermask_bridges)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.225 -0.75)
 			(end 1.225 0.75)
@@ -269,7 +274,7 @@
 			(at -0.725 0 270)
 			(size 0.3 0.3)
 			(layers "F.Cu" "F.Mask")
-			(net 4 "Net-(JP2-B)")
+			(net "Net-(JP2-B)")
 			(pinfunction "A")
 			(pintype "passive")
 			(zone_connect 2)
@@ -293,7 +298,7 @@
 			(at 0.725 0 270)
 			(size 0.3 0.3)
 			(layers "F.Cu" "F.Mask")
-			(net 6 "unconnected-(JP4-B-Pad2)")
+			(net "unconnected-(JP4-B-Pad2)")
 			(pinfunction "B")
 			(pintype "passive")
 			(zone_connect 2)
@@ -374,6 +379,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 2.5 -7.61)
 			(end 6.05 -7.61)
@@ -569,6 +575,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
 			(end 2.525 0)
@@ -659,6 +666,7 @@
 			)
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
 				(xy -1.243341 -0.243151) (xy -0.941971 -0.243151) (xy -0.70567 -0.32363) (xy -0.620053 -0.541096)
@@ -763,6 +771,7 @@
 			)
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
 				(xy -2.816781 -2.676941) (xy -4.243721 -2.676941) (xy -4.243721 2.676941) (xy -2.816781 2.676941)
@@ -841,6 +850,7 @@
 			)
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
 				(xy -1.67637 -2.711187) (xy -2.532534 -2.711187) (xy -4.159247 2.711187) (xy -2.532534 2.711187)
@@ -923,6 +933,7 @@
 			)
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
 				(xy -4.653444 -2.711187) (xy -4.653729 -2.711187) (xy -4.653729 2.711187) (xy -4.653444 2.711187)
@@ -1009,6 +1020,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 6.48)
 			(end 3.05 6.48)
@@ -1136,6 +1148,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 6.48)
 			(end 3.05 6.48)
@@ -1263,6 +1276,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 6.48)
 			(end 3.05 6.48)
@@ -1384,6 +1398,7 @@
 			)
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
 				(xy -1.051027 1.55) (xy -1.051027 -1.55) (xy -0.053082 -1.55) (xy 0.237277 -1.525051) (xy 0.488356 -1.450205)
@@ -1469,6 +1484,7 @@
 		(sheetfile "front-panel.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files allow_soldermask_bridges)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.225 -0.75)
 			(end 1.225 0.75)
@@ -1484,7 +1500,7 @@
 			(at -0.725 0 270)
 			(size 0.3 0.3)
 			(layers "F.Cu" "F.Mask")
-			(net 4 "Net-(JP2-B)")
+			(net "Net-(JP2-B)")
 			(pinfunction "A")
 			(pintype "passive")
 			(zone_connect 2)
@@ -1508,7 +1524,7 @@
 			(at 0.725 0 270)
 			(size 0.3 0.3)
 			(layers "F.Cu" "F.Mask")
-			(net 6 "unconnected-(JP4-B-Pad2)")
+			(net "unconnected-(JP4-B-Pad2)")
 			(pinfunction "B")
 			(pintype "passive")
 			(zone_connect 2)
@@ -1593,6 +1609,7 @@
 		(clearance 0)
 		(zone_connect 1)
 		(attr exclude_from_pos_files allow_soldermask_bridges)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.225 -0.75)
 			(end 1.225 0.75)
@@ -1608,7 +1625,7 @@
 			(at -0.725 0 270)
 			(size 0.3 0.3)
 			(layers "F.Cu" "F.Mask")
-			(net 1 "/DUMMY_NET_A")
+			(net "/DUMMY_NET_A")
 			(pinfunction "A")
 			(pintype "passive")
 			(zone_connect 2)
@@ -1632,7 +1649,7 @@
 			(at 0.725 0 270)
 			(size 0.3 0.3)
 			(layers "F.Cu" "F.Mask")
-			(net 3 "Net-(JP1-B)")
+			(net "Net-(JP1-B)")
 			(pinfunction "B")
 			(pintype "passive")
 			(zone_connect 2)
@@ -1709,6 +1726,7 @@
 			)
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
 				(xy -1.104642 0.273973) (xy -0.683409 0.273973) (xy -0.803272 -0.328767) (xy -0.85293 -0.587329)
@@ -1802,6 +1820,7 @@
 		(sheetfile "front-panel.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files allow_soldermask_bridges)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.225 -0.75)
 			(end 1.225 0.75)
@@ -1817,7 +1836,7 @@
 			(at -0.725 0 270)
 			(size 0.3 0.3)
 			(layers "F.Cu" "F.Mask")
-			(net 3 "Net-(JP1-B)")
+			(net "Net-(JP1-B)")
 			(pinfunction "A")
 			(pintype "passive")
 			(zone_connect 2)
@@ -1841,7 +1860,7 @@
 			(at 0.725 0 270)
 			(size 0.3 0.3)
 			(layers "F.Cu" "F.Mask")
-			(net 5 "unconnected-(JP3-B-Pad2)")
+			(net "unconnected-(JP3-B-Pad2)")
 			(pinfunction "B")
 			(pintype "passive")
 			(zone_connect 2)
@@ -1923,6 +1942,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 1.27 0)
 			(end 2.82 0)
@@ -2038,6 +2058,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 2.5 -7.61)
 			(end 6.05 -7.61)
@@ -2124,11 +2145,11 @@
 				(justify bottom)
 			)
 		)
-		(fp_text user "15mm"
-			(at 2.5 -15.3 0)
+		(fp_text user "25mm"
+			(at 2.49747 -20.317976 0)
 			(unlocked yes)
 			(layer "Dwgs.User")
-			(uuid "729bceb9-1efe-45a9-8aa2-296759e3bcec")
+			(uuid "e761cfd5-2363-4600-95bf-064e48f1a908")
 			(effects
 				(font
 					(size 1 1)
@@ -2137,11 +2158,11 @@
 				(justify bottom)
 			)
 		)
-		(fp_text user "25mm"
-			(at 2.49747 -20.317976 0)
+		(fp_text user "15mm"
+			(at 2.5 -15.3 0)
 			(unlocked yes)
 			(layer "Dwgs.User")
-			(uuid "e761cfd5-2363-4600-95bf-064e48f1a908")
+			(uuid "729bceb9-1efe-45a9-8aa2-296759e3bcec")
 			(effects
 				(font
 					(size 1 1)
@@ -2235,6 +2256,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 6.48)
 			(end 3.05 6.48)
@@ -2356,6 +2378,7 @@
 			)
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
 				(xy -0.32363 0.787671) (xy -0.025685 0.787671) (xy 0.114298 0.763699) (xy 0.226027 0.691781) (xy 0.299229 0.582192)
@@ -2450,6 +2473,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 6.48)
 			(end 3.05 6.48)
@@ -2571,6 +2595,7 @@
 			)
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
 				(xy -3.978739 0.273973) (xy -3.557506 0.273973) (xy -3.581478 -0.328767) (xy -3.593465 -0.587329)
@@ -2665,6 +2690,7 @@
 			)
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
 				(xy 0 1.695205) (xy -0.309658 1.664127) (xy -0.57863 1.57089) (xy -0.799572 1.421712) (xy -0.965137 1.222808)
@@ -2748,6 +2774,7 @@
 		(sheetfile "front-panel.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files allow_soldermask_bridges)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.225 -0.75)
 			(end 1.225 0.75)
@@ -2763,7 +2790,7 @@
 			(at -0.725 0 270)
 			(size 0.3 0.3)
 			(layers "F.Cu" "F.Mask")
-			(net 2 "/DUMMY_NET_B")
+			(net "/DUMMY_NET_B")
 			(pinfunction "A")
 			(pintype "passive")
 			(zone_connect 2)
@@ -2787,7 +2814,7 @@
 			(at 0.725 0 270)
 			(size 0.3 0.3)
 			(layers "F.Cu" "F.Mask")
-			(net 4 "Net-(JP2-B)")
+			(net "Net-(JP2-B)")
 			(pinfunction "B")
 			(pintype "passive")
 			(zone_connect 2)
@@ -2870,6 +2897,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 6.48)
 			(end 3.05 6.48)
@@ -2991,6 +3019,7 @@
 			)
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
 				(xy -13.638356 2) (xy -14.630137 -2) (xy -13.780822 -2) (xy -13.227397 0.526027) (xy -13.158904 0.860274)
@@ -3176,6 +3205,7 @@
 			)
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
 				(xy -1.105274 1.65) (xy -1.105274 -1.65) (xy -0.033904 -1.65) (xy 0.28762 -1.617226) (xy 0.565068 -1.518904)
@@ -3257,6 +3287,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 6.48)
 			(end 3.05 6.48)
@@ -3383,6 +3414,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 1.27 0)
 			(end 2.82 0)
@@ -3499,6 +3531,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 1.27 0)
 			(end 2.82 0)
@@ -3614,6 +3647,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 2.5 -7.61)
 			(end 6.05 -7.61)
@@ -3687,11 +3721,11 @@
 			(layer "User.1")
 			(uuid "a90f19ae-f6e4-4698-9e43-533f473ddc01")
 		)
-		(fp_text user "25mm"
-			(at 2.49747 -20.317976 0)
+		(fp_text user "10mm"
+			(at 2.475471 -12.615114 0)
 			(unlocked yes)
 			(layer "Dwgs.User")
-			(uuid "1b27da17-08c5-4b2d-8561-7385dd6138be")
+			(uuid "6f9fbcc1-84ad-4af5-bf26-d07a9b82746e")
 			(effects
 				(font
 					(size 1 1)
@@ -3700,11 +3734,11 @@
 				(justify bottom)
 			)
 		)
-		(fp_text user "10mm"
-			(at 2.475471 -12.615114 0)
+		(fp_text user "25mm"
+			(at 2.49747 -20.317976 0)
 			(unlocked yes)
 			(layer "Dwgs.User")
-			(uuid "6f9fbcc1-84ad-4af5-bf26-d07a9b82746e")
+			(uuid "1b27da17-08c5-4b2d-8561-7385dd6138be")
 			(effects
 				(font
 					(size 1 1)
@@ -3810,6 +3844,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 1.27 0)
 			(end 2.82 0)
@@ -3927,6 +3962,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 6.48)
 			(end 3.05 6.48)
@@ -4052,6 +4088,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
 			(end 2.525 0)
@@ -4142,6 +4179,7 @@
 			)
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
 				(xy -0.182192 1.913242) (xy -0.040944 1.885845) (xy 0.054033 1.803653) (xy 0.10274 1.666667) (xy 0.236986 0.817352)
@@ -4259,6 +4297,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
 			(end 2.525 0)
@@ -4355,6 +4394,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 6.48)
 			(end 3.05 6.48)
@@ -4472,6 +4512,7 @@
 		(sheetfile "front-panel.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files allow_soldermask_bridges)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.225 -0.75)
 			(end 1.225 0.75)
@@ -4487,7 +4528,7 @@
 			(at -0.725 0 270)
 			(size 0.3 0.3)
 			(layers "F.Cu" "F.Mask")
-			(net 2 "/DUMMY_NET_B")
+			(net "/DUMMY_NET_B")
 			(pinfunction "A")
 			(pintype "passive")
 			(zone_connect 2)
@@ -4511,7 +4552,7 @@
 			(at 0.725 0 270)
 			(size 0.3 0.3)
 			(layers "F.Cu" "F.Mask")
-			(net 4 "Net-(JP2-B)")
+			(net "Net-(JP2-B)")
 			(pinfunction "B")
 			(pintype "passive")
 			(zone_connect 2)
@@ -4594,6 +4635,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 6.48)
 			(end 3.05 6.48)
@@ -4719,6 +4761,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
 			(end 2.525 0)
@@ -4815,6 +4858,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 6.48)
 			(end 3.05 6.48)
@@ -4939,6 +4983,7 @@
 		)
 		(zone_connect 1)
 		(attr exclude_from_pos_files allow_soldermask_bridges)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.225 -0.75)
 			(end 1.225 0.75)
@@ -4954,7 +4999,7 @@
 			(at -0.725 0 270)
 			(size 0.3 0.3)
 			(layers "F.Cu" "F.Mask")
-			(net 3 "Net-(JP1-B)")
+			(net "Net-(JP1-B)")
 			(pinfunction "A")
 			(pintype "passive")
 			(zone_connect 2)
@@ -4978,7 +5023,7 @@
 			(at 0.725 0 270)
 			(size 0.3 0.3)
 			(layers "F.Cu" "F.Mask")
-			(net 5 "unconnected-(JP3-B-Pad2)")
+			(net "unconnected-(JP3-B-Pad2)")
 			(pinfunction "B")
 			(pintype "passive")
 			(zone_connect 2)
@@ -5059,6 +5104,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 2.5 -7.61)
 			(end 6.05 -7.61)
@@ -5132,11 +5178,11 @@
 			(layer "User.1")
 			(uuid "b87804e9-d53b-47e6-bad1-6c78eccc5d56")
 		)
-		(fp_text user "25mm"
-			(at 2.49747 -20.317976 0)
+		(fp_text user "10mm"
+			(at 2.475471 -12.615114 0)
 			(unlocked yes)
 			(layer "Dwgs.User")
-			(uuid "32eeee83-bb8a-478b-b9c9-84ca6ee873ce")
+			(uuid "aa14f74a-d3c7-4a30-9d07-208083a20541")
 			(effects
 				(font
 					(size 1 1)
@@ -5145,11 +5191,11 @@
 				(justify bottom)
 			)
 		)
-		(fp_text user "10mm"
-			(at 2.475471 -12.615114 0)
+		(fp_text user "25mm"
+			(at 2.49747 -20.317976 0)
 			(unlocked yes)
 			(layer "Dwgs.User")
-			(uuid "aa14f74a-d3c7-4a30-9d07-208083a20541")
+			(uuid "32eeee83-bb8a-478b-b9c9-84ca6ee873ce")
 			(effects
 				(font
 					(size 1 1)
@@ -5256,6 +5302,7 @@
 		(sheetname "/")
 		(sheetfile "front-panel.kicad_sch")
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 6.48)
 			(end 3.05 6.48)
@@ -5385,6 +5432,7 @@
 		(clearance 0)
 		(zone_connect 1)
 		(attr exclude_from_pos_files allow_soldermask_bridges)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.225 -0.75)
 			(end 1.225 0.75)
@@ -5400,7 +5448,7 @@
 			(at -0.725 0 270)
 			(size 0.3 0.3)
 			(layers "F.Cu" "F.Mask")
-			(net 1 "/DUMMY_NET_A")
+			(net "/DUMMY_NET_A")
 			(pinfunction "A")
 			(pintype "passive")
 			(zone_connect 2)
@@ -5424,7 +5472,7 @@
 			(at 0.725 0 270)
 			(size 0.3 0.3)
 			(layers "F.Cu" "F.Mask")
-			(net 3 "Net-(JP1-B)")
+			(net "Net-(JP1-B)")
 			(pinfunction "B")
 			(pintype "passive")
 			(zone_connect 2)
@@ -5447,28 +5495,16 @@
 		(embedded_fonts no)
 	)
 	(gr_rect
-		(start 56.875911 131.211708)
-		(end 64.375911 139.211708)
+		(start 26.877972 131.213059)
+		(end 34.377972 139.213059)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(fill yes)
 		(layers "F.Cu" "F.Mask")
-		(net 6)
-		(uuid "2a77afe3-6c3f-430e-95ff-9e134d29ef56")
-	)
-	(gr_rect
-		(start 46.876556 131.138813)
-		(end 54.376556 139.138813)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layers "F.Cu" "F.Mask")
-		(net 5)
-		(uuid "c4dfb052-1a54-4dfd-a391-9d7568ff4198")
+		(net "unconnected-(JP3-B-Pad2)")
+		(uuid "d8293579-2754-478d-940a-2c8c0e9da8f3")
 	)
 	(gr_rect
 		(start 36.877972 131.173059)
@@ -5479,20 +5515,44 @@
 		)
 		(fill yes)
 		(layers "F.Cu" "F.Mask")
-		(net 6)
+		(net "unconnected-(JP4-B-Pad2)")
 		(uuid "c8a5e29f-84b8-4739-8a6e-b9dcf21c52ec")
 	)
 	(gr_rect
-		(start 26.877972 131.213059)
-		(end 34.377972 139.213059)
+		(start 46.876556 131.138813)
+		(end 54.376556 139.138813)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(fill yes)
 		(layers "F.Cu" "F.Mask")
-		(net 5)
-		(uuid "d8293579-2754-478d-940a-2c8c0e9da8f3")
+		(net "unconnected-(JP3-B-Pad2)")
+		(uuid "c4dfb052-1a54-4dfd-a391-9d7568ff4198")
+	)
+	(gr_rect
+		(start 56.875911 131.211708)
+		(end 64.375911 139.211708)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layers "F.Cu" "F.Mask")
+		(net "unconnected-(JP4-B-Pad2)")
+		(uuid "2a77afe3-6c3f-430e-95ff-9e134d29ef56")
+	)
+	(gr_poly
+		(pts
+			(xy 30 39.919135) (xy 26.4 43.519135) (xy 26.4 51.719135) (xy 50.5 51.719135) (xy 50.5 39.919135)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "eab91a4d-b848-432f-b4d0-0737216c1832")
 	)
 	(gr_poly
 		(pts
@@ -5508,7 +5568,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 64.7 57.634307) (xy 51.8 57.634307) (xy 51.8 69.434307) (xy 60 69.434307) (xy 64.7 64.734307)
+			(xy 30 75.349479) (xy 26.4 78.949479) (xy 26.4 87.149479) (xy 50.5 87.149479) (xy 50.5 75.349479)
 		)
 		(stroke
 			(width 0)
@@ -5516,7 +5576,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "5455b1b6-3e5e-469d-8fec-ec12a00b2a11")
+		(uuid "6cea1825-2490-4fb7-8890-df3b58e9a2fc")
 	)
 	(gr_poly
 		(pts
@@ -5532,7 +5592,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 30 75.349479) (xy 26.4 78.949479) (xy 26.4 87.149479) (xy 50.5 87.149479) (xy 50.5 75.349479)
+			(xy 64.7 39.919135) (xy 50.5 39.919135) (xy 50.5 51.719135) (xy 60 51.719135) (xy 64.7 47.019135)
 		)
 		(stroke
 			(width 0)
@@ -5540,12 +5600,11 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "6cea1825-2490-4fb7-8890-df3b58e9a2fc")
+		(uuid "d1a4392c-8adb-4e2a-81ef-9a7c538cf1e5")
 	)
 	(gr_poly
 		(pts
-			(xy 64.7 92.929302) (xy 53.8 92.929302) (xy 53.8 104.729302) (xy 55.4 104.729302) (xy 56.9 104.729302)
-			(xy 60 104.729302) (xy 64.7 100.029302)
+			(xy 64.7 57.634307) (xy 51.8 57.634307) (xy 51.8 69.434307) (xy 60 69.434307) (xy 64.7 64.734307)
 		)
 		(stroke
 			(width 0)
@@ -5553,7 +5612,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "bae9d103-2d3b-431e-8179-fc146d41f44f")
+		(uuid "5455b1b6-3e5e-469d-8fec-ec12a00b2a11")
 	)
 	(gr_poly
 		(pts
@@ -5569,7 +5628,8 @@
 	)
 	(gr_poly
 		(pts
-			(xy 64.7 39.919135) (xy 50.5 39.919135) (xy 50.5 51.719135) (xy 60 51.719135) (xy 64.7 47.019135)
+			(xy 64.7 92.929302) (xy 53.8 92.929302) (xy 53.8 104.729302) (xy 55.4 104.729302) (xy 56.9 104.729302)
+			(xy 60 104.729302) (xy 64.7 100.029302)
 		)
 		(stroke
 			(width 0)
@@ -5577,41 +5637,18 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "d1a4392c-8adb-4e2a-81ef-9a7c538cf1e5")
+		(uuid "bae9d103-2d3b-431e-8179-fc146d41f44f")
 	)
-	(gr_poly
-		(pts
-			(xy 30 39.919135) (xy 26.4 43.519135) (xy 26.4 51.719135) (xy 50.5 51.719135) (xy 50.5 39.919135)
-		)
+	(gr_rect
+		(start 25.42 25.4)
+		(end 65.82 153.9)
 		(stroke
-			(width 0)
+			(width 0.15)
 			(type solid)
 		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "eab91a4d-b848-432f-b4d0-0737216c1832")
-	)
-	(gr_circle
-		(center 58.32 150.9)
-		(end 59.97 150.9)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "19fdd7b4-907b-47fc-bb63-03d041058e6c")
-	)
-	(gr_circle
-		(center 32.92 150.9)
-		(end 34.57 150.9)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "4b6cfc06-30cf-4d12-8403-2c64a73e9563")
+		(uuid "eb2964c5-bbe9-4afa-98c4-7c8539f2ba03")
 	)
 	(gr_circle
 		(center 32.92 28.4)
@@ -5625,6 +5662,17 @@
 		(uuid "66913960-f579-435e-9e62-5199f4f57540")
 	)
 	(gr_circle
+		(center 32.92 150.9)
+		(end 34.57 150.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "4b6cfc06-30cf-4d12-8403-2c64a73e9563")
+	)
+	(gr_circle
 		(center 58.32 28.4)
 		(end 59.97 28.4)
 		(stroke
@@ -5635,16 +5683,16 @@
 		(layer "Edge.Cuts")
 		(uuid "d5261649-541b-4de6-a3e4-85932a393c11")
 	)
-	(gr_rect
-		(start 25.42 25.4)
-		(end 65.82 153.9)
+	(gr_circle
+		(center 58.32 150.9)
+		(end 59.97 150.9)
 		(stroke
-			(width 0.15)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "eb2964c5-bbe9-4afa-98c4-7c8539f2ba03")
+		(uuid "19fdd7b4-907b-47fc-bb63-03d041058e6c")
 	)
 	(gr_rect
 		(start 26.12 34.65)
@@ -5907,7 +5955,7 @@
 		(end 52.15 117.434372)
 		(width 0.8)
 		(layers "F.Cu" "F.Mask")
-		(net 1)
+		(net "/DUMMY_NET_A")
 		(uuid "05a04d2b-54ee-45ab-8efb-599e046b8a25")
 	)
 	(segment
@@ -5915,7 +5963,7 @@
 		(end 60.625911 124.300911)
 		(width 0.8)
 		(layers "F.Cu" "F.Mask")
-		(net 1)
+		(net "/DUMMY_NET_A")
 		(uuid "083fb745-ebad-4afb-840d-7260772faf9c")
 	)
 	(segment
@@ -5923,7 +5971,7 @@
 		(end 54.152 107.448)
 		(width 0.8)
 		(layers "F.Cu" "F.Mask")
-		(net 1)
+		(net "/DUMMY_NET_A")
 		(uuid "2963d940-471c-49e3-ba7a-858b7b09e46f")
 	)
 	(segment
@@ -5931,7 +5979,7 @@
 		(end 40.625911 124.973826)
 		(width 0.8)
 		(layers "F.Cu" "F.Mask")
-		(net 1)
+		(net "/DUMMY_NET_A")
 		(uuid "29db8f7a-ae59-4718-a477-0fe0077a4fe6")
 	)
 	(segment
@@ -5939,7 +5987,7 @@
 		(end 49.624911 119.959461)
 		(width 0.8)
 		(layers "F.Cu" "F.Mask")
-		(net 1)
+		(net "/DUMMY_NET_A")
 		(uuid "412e347b-d079-4e19-8123-e3e430dec322")
 	)
 	(segment
@@ -5947,7 +5995,7 @@
 		(end 52.15 73.95)
 		(width 0.8)
 		(layers "F.Cu" "F.Mask")
-		(net 1)
+		(net "/DUMMY_NET_A")
 		(uuid "4e0b91a8-365e-404b-b24a-3db4d81564ce")
 	)
 	(segment
@@ -5955,7 +6003,7 @@
 		(end 49.624911 119.975089)
 		(width 0.8)
 		(layers "F.Cu" "F.Mask")
-		(net 1)
+		(net "/DUMMY_NET_A")
 		(uuid "752d382f-1bd1-4720-a3f2-1ebb15edf2a6")
 	)
 	(segment
@@ -5963,7 +6011,7 @@
 		(end 42.264218 123)
 		(width 0.8)
 		(layers "F.Cu" "F.Mask")
-		(net 1)
+		(net "/DUMMY_NET_A")
 		(uuid "7e81f72e-4133-48be-a1ee-1e84097451e8")
 	)
 	(segment
@@ -5971,7 +6019,7 @@
 		(end 40.625911 124.638307)
 		(width 0.8)
 		(layers "F.Cu" "F.Mask")
-		(net 1)
+		(net "/DUMMY_NET_A")
 		(uuid "810582a4-d0dc-4ea8-b8ee-b059563e4f50")
 	)
 	(segment
@@ -5979,7 +6027,7 @@
 		(end 60.625911 124.973826)
 		(width 0.8)
 		(layers "F.Cu" "F.Mask")
-		(net 1)
+		(net "/DUMMY_NET_A")
 		(uuid "8e39cfdb-8f17-4c83-b76c-726b57b94faf")
 	)
 	(segment
@@ -5987,7 +6035,7 @@
 		(end 54.152 117.827)
 		(width 0.8)
 		(layers "F.Cu" "F.Mask")
-		(net 1)
+		(net "/DUMMY_NET_A")
 		(uuid "c44776ab-b9c6-4be7-8090-ff39ab358f22")
 	)
 	(segment
@@ -5995,7 +6043,7 @@
 		(end 46.6 123)
 		(width 0.8)
 		(layers "F.Cu" "F.Mask")
-		(net 1)
+		(net "/DUMMY_NET_A")
 		(uuid "e715e303-4db2-4f95-974f-5f64d66afc5b")
 	)
 	(via
@@ -6004,7 +6052,17 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(net 1)
+		(capping no)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(filling no)
+		(net "/DUMMY_NET_A")
 		(uuid "0733b193-6f1a-4a49-b15f-90fcb4f98b6e")
 	)
 	(via
@@ -6012,7 +6070,17 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 1)
+		(capping no)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(filling no)
+		(net "/DUMMY_NET_A")
 		(uuid "2f86d5a2-ee7a-4b2f-b0e1-517244873917")
 	)
 	(segment
@@ -6020,7 +6088,7 @@
 		(end 50.625911 124.973826)
 		(width 0.8)
 		(layers "F.Cu" "F.Mask")
-		(net 2)
+		(net "/DUMMY_NET_B")
 		(uuid "01a903c1-1c03-4a99-8b2c-f9edd3ecbe1f")
 	)
 	(segment
@@ -6028,7 +6096,7 @@
 		(end 53.151 90.649)
 		(width 0.8)
 		(layers "F.Cu" "F.Mask")
-		(net 2)
+		(net "/DUMMY_NET_B")
 		(uuid "489cfda3-42d9-4eaa-9c11-8780e612b1ba")
 	)
 	(segment
@@ -6036,7 +6104,7 @@
 		(end 30.70563 124.59437)
 		(width 0.8)
 		(layer "F.Cu")
-		(net 2)
+		(net "/DUMMY_NET_B")
 		(uuid "839c5d85-6991-4dbb-b9e8-c8af81ae40bf")
 	)
 	(segment
@@ -6044,7 +6112,7 @@
 		(end 46.168744 122)
 		(width 0.8)
 		(layers "F.Cu" "F.Mask")
-		(net 2)
+		(net "/DUMMY_NET_B")
 		(uuid "873aa39e-0933-48dc-b694-ad1964549047")
 	)
 	(segment
@@ -6052,7 +6120,7 @@
 		(end 30.70563 124.558588)
 		(width 0.8)
 		(layer "F.Cu")
-		(net 2)
+		(net "/DUMMY_NET_B")
 		(uuid "89fd51e8-689e-4194-b0a4-d6dc1585cbc6")
 	)
 	(segment
@@ -6060,7 +6128,7 @@
 		(end 53.151 117.849)
 		(width 0.8)
 		(layers "F.Cu" "F.Mask")
-		(net 2)
+		(net "/DUMMY_NET_B")
 		(uuid "9a2e0e31-2672-48a6-a95a-b653cb532c40")
 	)
 	(segment
@@ -6068,7 +6136,7 @@
 		(end 51.149 117.019744)
 		(width 0.8)
 		(layers "F.Cu" "F.Mask")
-		(net 2)
+		(net "/DUMMY_NET_B")
 		(uuid "a5eec4e3-ecab-4c05-94b3-048380781ea3")
 	)
 	(segment
@@ -6076,7 +6144,7 @@
 		(end 33.264218 122)
 		(width 0.8)
 		(layers "F.Cu" "F.Mask")
-		(net 2)
+		(net "/DUMMY_NET_B")
 		(uuid "a6efa201-edb3-4757-bfc4-c7d86f84a447")
 	)
 	(segment
@@ -6084,7 +6152,7 @@
 		(end 50.625911 120.374089)
 		(width 0.8)
 		(layers "F.Cu" "F.Mask")
-		(net 2)
+		(net "/DUMMY_NET_B")
 		(uuid "b34a0856-d541-4583-a258-feeb07feb330")
 	)
 	(segment
@@ -6092,7 +6160,7 @@
 		(end 30.625911 124.674089)
 		(width 0.8)
 		(layers "F.Cu" "F.Mask")
-		(net 2)
+		(net "/DUMMY_NET_B")
 		(uuid "cb12977d-7875-4060-86a9-3b067264a34d")
 	)
 	(segment
@@ -6100,7 +6168,7 @@
 		(end 51.149 57.251)
 		(width 0.8)
 		(layers "F.Cu" "F.Mask")
-		(net 2)
+		(net "/DUMMY_NET_B")
 		(uuid "d324972a-7acb-4a88-bd15-39225c8fcdbc")
 	)
 	(segment
@@ -6108,7 +6176,7 @@
 		(end 58.1 50.3)
 		(width 0.8)
 		(layers "F.Cu" "F.Mask")
-		(net 2)
+		(net "/DUMMY_NET_B")
 		(uuid "ed471e95-7623-4f1b-9274-6b1e39b392f8")
 	)
 	(via
@@ -6117,7 +6185,17 @@
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
-		(net 2)
+		(capping no)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(filling no)
+		(net "/DUMMY_NET_B")
 		(uuid "082add0b-db68-46ed-a868-13ab3c4bd278")
 	)
 	(via
@@ -6125,7 +6203,17 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 2)
+		(capping no)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(filling no)
+		(net "/DUMMY_NET_B")
 		(uuid "4c08a725-ddac-46f7-98b8-8e2f4f364f4f")
 	)
 	(segment
@@ -6133,7 +6221,7 @@
 		(end 53.15 128.83163)
 		(width 0.5)
 		(layers "F.Cu" "F.Mask")
-		(net 5)
+		(net "unconnected-(JP3-B-Pad2)")
 		(uuid "4e8549ef-3ddf-47e3-bd77-bca3617c26df")
 	)
 	(segment
@@ -6141,7 +6229,7 @@
 		(end 33.15663 131.69337)
 		(width 0.5)
 		(layers "F.Cu" "F.Mask")
-		(net 5)
+		(net "unconnected-(JP3-B-Pad2)")
 		(uuid "a2e06fa8-7230-4593-853b-7193ab7ff4be")
 	)
 	(segment
@@ -6149,7 +6237,7 @@
 		(end 53.15 128.83163)
 		(width 0.35)
 		(layer "F.Cu")
-		(net 5)
+		(net "unconnected-(JP3-B-Pad2)")
 		(uuid "df98caea-bb56-4460-9552-2961613c1956")
 	)
 	(via
@@ -6157,7 +6245,17 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 5)
+		(capping no)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(filling no)
+		(net "unconnected-(JP3-B-Pad2)")
 		(uuid "740bc422-f0b7-422e-b2c1-5a89920d4a88")
 	)
 	(via
@@ -6165,7 +6263,17 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 5)
+		(capping no)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(filling no)
+		(net "unconnected-(JP3-B-Pad2)")
 		(uuid "e4d62655-1b89-4504-9872-eca7fef97f8a")
 	)
 	(segment
@@ -6173,7 +6281,7 @@
 		(end 43.15663 131.693371)
 		(width 0.5)
 		(layers "F.Cu" "F.Mask")
-		(net 6)
+		(net "unconnected-(JP4-B-Pad2)")
 		(uuid "1af2a10b-26a8-4020-b42e-ab54826dea14")
 	)
 	(segment
@@ -6181,7 +6289,7 @@
 		(end 63.15663 131.593371)
 		(width 0.5)
 		(layers "F.Cu" "F.Mask")
-		(net 6)
+		(net "unconnected-(JP4-B-Pad2)")
 		(uuid "6f4a6616-e8e9-42aa-8c60-a81e2a786d01")
 	)
 	(via
@@ -6189,7 +6297,17 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 6)
+		(capping no)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(filling no)
+		(net "unconnected-(JP4-B-Pad2)")
 		(uuid "1370159e-f44c-4cb0-90c8-e4bd816880e1")
 	)
 	(via
@@ -6197,7 +6315,17 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 6)
+		(capping no)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(filling no)
+		(net "unconnected-(JP4-B-Pad2)")
 		(uuid "8ece296e-47ef-4e63-9daf-c75e70e668a0")
 	)
 	(group ""
